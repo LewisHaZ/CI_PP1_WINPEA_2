@@ -9,8 +9,39 @@
 </head>
 <body style="height:2000px">
     
+    <style>
+        .carousel-item{
+            height:32rem;
+            background:#000;
+            color:white;
+            position:relative;
+            
+        }
+        .container{
+            display: flex;
+            row-gap: 10px;
+            column-gap: 20px;
+            flex-direction: row;
+            justify-content: center;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding-bottom: 60px;
+        }
+        .overlay-image{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            top:0;
+            background-position: center;
+            background-size: cover;
+            opacity: 0.5;
+        }
+</style>
         <nav class="navbar fixed-top navbar-expand-md navbar-dark" style="background-color: slategray">
-            <div class="container">
+            <div class="container-fluid">
             <a
             href="#" 
             class="navbar-brand mb-0 h1">
@@ -31,7 +62,6 @@
             aria-label="Toggle navigation"
             >
             <span class="navbar-toggler-icon"></span>
-            
             </button>
 
             <div
@@ -73,39 +103,13 @@
                 <input type="text" class="form-control me-2">
                 <button type="submit" class="btn 
                 btn-primary">Search</button>
-                    
                 </button>
             </form>
         </div>
     </nav>
 
 
-    <style>
-            .carousel-item{
-                height:32rem;
-                background:#000;
-                color:white;
-                position:relative;
-                
-            }
-            .container-fluid{
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                right: 0;
-                padding-bottom: 50px;
-            }
-            .overlay-image{
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                right: 0;
-                top:0;
-                background-position: center;
-                background-size: cover;
-                opacity: 0.5;
-            }
-    </style>
+
     <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <ol class="carousel-indicators">
             <li data-bs-target="#myCarousel"
@@ -118,11 +122,11 @@
             data-bs-slide-to="3"></li>           
         </ol>
         <div class="carousel-inner">
-            <div class="carousel-item active"
+            <div class="carousel-item active" 
             data-bs-interval="8000">
                 <div class="overlay-image"
                 style="background-image: url(./images/woman_model.jpg);"></div>
-                <div class="container-fluid">
+                <div class="container">
                     <h1>Border free, Gender free, Age free & Size free</h1>
                     <p>We use the 4 free concept for all our products</p>
                     <a href="" class="btn btn-lg btn-primary">
@@ -134,7 +138,7 @@
             data-bs-interval="4000">
                 <div class="overlay-image"
                 style="background-image: url(./images/fashion_photo.jpg);"></div>
-                <div class="container-fluid">
+                <div class="container">
                     <h1>Border free, Gender free, Age free & Size free</h1>
                     <p>We use the 4 free concept for all our products</p>
                     <a href="" class="btn btn-lg btn-primary">
@@ -146,7 +150,7 @@
             data-bs-interval="3000">
                 <div class="overlay-image"
                 style="background-image: url(./images/design_inspiration.jpg);"></div>
-                <div class="container-fluid">
+                <div class="container">
                     <h1>Border free, Gender free, Age free & Size free</h1>
                     <p>We use the 4 free concept for all our products</p>
                     <a href="" class="btn btn-lg btn-primary">
@@ -158,7 +162,7 @@
             data-bs-interval="2500">
                 <div class="overlay-image"
                 style="background-image: url(./images/male_model.jpg);"></div>
-                <div class="container-fluid">
+                <div class="container">
                     <h1>Border free, Gender free, Age free & Size free</h1>
                     <p>We use the 4 free concept for all our products</p>
                     <a href="" class="btn btn-lg btn-primary">
