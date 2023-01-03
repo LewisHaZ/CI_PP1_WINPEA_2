@@ -5,7 +5,6 @@
     line-height: 0;
     column-count: 4;
     column-gap: 0;
-    margin-top: 10%;
 }
 
 #photos > img{
@@ -16,5 +15,6 @@
 @media screen and (max-width: 1200px) {
     #photos{
         column-count: 3;
+        margin-top: 10%;
     }
 }
