@@ -1,7 +1,7 @@
 /* brand ethos */
 #brand-ethos{
     height:auto;
-    padding-bottom: 500px;
+    padding-bottom: 100px;
 }
 
 #left-about{
@@ -73,4 +73,34 @@ hr{
     background: url('./assets/images/winpea-small.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
+}
+
+@media screen and (max-width: 1200px){
+    #brand-ethos{
+        width: 65%;
+        height:1200px;
+        margin: 0 auto;
+        margin-bottom: 20%;
+    }
+
+    #welcome{
+        padding: 30px 0;
+        margin: 0;
+    }
+    #left-about, #right-about{
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about{
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+    
+    hr{
+        display: none;
+    }
 }
