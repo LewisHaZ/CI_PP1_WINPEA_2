@@ -91,21 +91,46 @@
             <div class="col-lg-6">
                 <form>
                     <label for="email" class="form-label">Email Address:</label>
-                    <input type="email" class="form-control" id="email" placeholder="e.g. fashionlover112@gmail.com">
+                    <div class="mb-4 input-group">
+                        <span class="input-group-text">
+                            <i class="fa-solid fa-at"></i>
+                        </span>
+                        <input type="email" class="form-control" id="email" placeholder="e.g. fashionlover112@gmail.com">
+                    </div>
+                    
 
                     <label for="name" class="form-label">Name:</label>
-                    <input type="text" class="form-control" id="name", placeholder="e.g Samantha Baker">
+                    <div class="mb-4 input-group">
+                        <span class="input-group-text">
+                            <i class="fa-solid fa-user"></i>
+                        </span>
+                        <input type="text" class="form-control" id="name", placeholder="e.g Samantha Baker">
+                    </div>
+                    
 
                     <label for="subject" class="form-label">Category</label>
-                    <select class="form-select" id="subject">
-                    <option value="pricing" selected>Pricing query</option>
-                    <option value="delivery">Delivery & Shipping query</option>
-                    <option value="product">Product query</option>
-                    <option value="other">Other query</option>
-                    </select>
+                    <div class="mb-4 input-group">
+                        <span class="input-group-text">
+                            <i class="fa-solid fa-message"></i>
+                        </span>
+                        <select class="form-select" id="subject">
+                            <option value="pricing" selected>Pricing</option>
+                            <option value="delivery">Delivery & Shipping</option>
+                            <option value="product">Products</option>
+                            <option value="other">Other queries</option>
+                            </select>
+                    </div>
+                    
 
-                    <label for="query">Your question/concern</label>
-                    <textarea class="form-control" id="query" style="height: 140px"></textarea>
+                    <div class="form-floating mb-4 mt-5">
+                        <textarea class="form-control" id="query" style="height: 140px"></textarea>
+                        <label for="query">Your question/concern</label>
+                    </div>
+
+                    <div class="mb-4 text-center">
+                        <button type="submit" class="btn btn-secondary">Submit</button>
+                    </div>
+                    
                 </form>
             </div>
         </div>
