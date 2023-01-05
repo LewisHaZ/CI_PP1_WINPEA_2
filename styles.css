@@ -34,7 +34,7 @@ a {
 a:hover {
   color: skyblue;
   text-decoration: none;
-  transform: translateY(-5px);
+  transform: translateY(-3\px);
 }
 
 ::-moz-selection {

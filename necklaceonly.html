@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Winpea</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="brandethos.css">
     <link rel="stylesheet" href="cataloguestyles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,38 +13,7 @@
 </head>
 <body>
     
-    <style>
-        .carousel-item{
-            height:32rem;
-            background:#000;
-            color:white;
-            position:relative;
-            
-        }
-        .container{
-            display: flex;
-            row-gap: 10px;
-            column-gap: 20px;
-            flex-direction: row;
-            justify-content: center;
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            padding-bottom: 6px;
-        }
-        .overlay-image{
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            top:0;
-            background-position: center;
-            background-size: cover;
-            opacity: 0.5;
-        }
-</style>
-        <nav class="navbar fixed-top navbar-expand-md navbar-dark" style="background-color: #1a1d20">
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark" style="background-color: #1a1d20">
             <div class="container-fluid">
             <a
             href="index.html" 
@@ -117,131 +85,78 @@
         </div>
     </nav>
 
-    <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-bs-target="#myCarousel"
-            data-bs-slide-to="0" class="active"></li>
-            <li data-bs-target="#myCarousel"
-            data-bs-slide-to="1"></li>
-            <li data-bs-target="#myCarousel"
-            data-bs-slide-to="2"></li>
-            <li data-bs-target="#myCarousel"
-            data-bs-slide-to="3"></li>           
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active" 
-            data-bs-interval="8000">
-                <div class="overlay-image"
-                style="background-image: url(../assets/images/woman_model.jpg);"></div>
-                <div class="container">
-                    <h1>Border free, Gender free, Age free & Size free</h1>
-                    <p>We use the 4 free concept for all our products</p>
-                    <a href="catalogue.html" class="btn btn-lg btn-primary">
-                        Explore
-                    </a>
+<!-- the catalogue -->
+    <section class="shop" id="shop">
+        <div class="container">
+            <div class="box">
+                <img src="/assets/images/necklace-1.jpg" alt="necklace 1" height="237" width="237">
+                <h4>Necklace 1</h4>
+                <h5>£40.00</h5>
+                <div class="cart">
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </div>
-            <div class="carousel-item" 
-            data-bs-interval="4000">
-                <div class="overlay-image"
-                style="background-image: url(../assets/images/fashion_photo.jpg);"></div>
-                <div class="container">
-                    <h1>Border free, Gender free, Age free & Size free</h1>
-                    <p>We use the 4 free concept for all our products</p>
-                    <a href="catalogue.html" class="btn btn-lg btn-primary">
-                        Explore
-                    </a>
+            <div class="box">
+                <img src="/assets/images/necklace-2.jpg" alt="necklace 2" height="237" width="237">
+                <h4>Necklace 2</h4>
+                <h5>£40.00</h5>
+                <div class="cart">
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </div>
-            <div class="carousel-item"
-            data-bs-interval="3000">
-                <div class="overlay-image"
-                style="background-image: url(../assets/images/design_inspiration.jpg);"></div>
-                <div class="container">
-                    <h1>Border free, Gender free, Age free & Size free</h1>
-                    <p>We use the 4 free concept for all our products</p>
-                    <a href="catalogue.html" class="btn btn-lg btn-primary">
-                        Explore
-                    </a>
+            <div class="box">
+                <img src="/assets/images/necklace-3.jpg" alt="necklace 3" height="237" width="237">
+                <h4>Necklace 3</h4>
+                <h5>£40.00</h5>
+                <div class="cart">
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </div>
-            <div class="carousel-item" 
-            data-bs-interval="2500">
-                <div class="overlay-image"
-                style="background-image: url(../assets/images/male_model.jpg);"></div>
-                <div class="container">
-                    <h1>Border free, Gender free, Age free & Size free</h1>
-                    <p>We use the 4 free concept for all our products</p>
-                    <a href="catalogue.html" class="btn btn-lg btn-primary">
-                        Explore
-                    </a>
+            <div class="box">
+                <img src="/assets/images/necklace-4.jpg" alt="necklace 4" height="237" width="237">
+                <h4>Necklace 4</h4>
+                <h5>£40.00</h5>
+                <div class="cart">
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </div>
-        </div>
-        <a href="#myCarousel" class="carousel-control-prev" role="button" data-bs-slide="prev">
-            <span class="visually-hidden">Previous</span>
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        </a>
-        <a href="#myCarousel" class="carousel-control-next" role="button" data-bs-slide="next">
-            <span class="visually-hidden">Next</span>
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        </a>
-    </div>
-
-    <section id="brand-ethos">
-        <h2 id="welcome">Thanks for visiting our site!</h2>
-        <div id="left-about">
-            <div class="left-about-heading">
-                <h3>Quote from brand owner <i class="fa-solid fa-quote-left"></i></h3>
-                <hr>
-                <p>
-                    The only design accessory in the world
-                    connected by travelling
-
-                    旅して繋げる、世界にひとつだけの
-                    デザインアクセサリー
-                </p>
-            </div>
-            <div class="left-about-heading">
-                <h3>Why us <i class="fa-solid fa-thumbs-up"></i></h3>
-                <hr>
-                <p>
-                    At Winpea we work tirelessly to ensure our products are of the highest quality.
-                    Not only this, but we strive to make our range available to all with our 4 free brand concept.
-                    All of our designs are original but take inspiration from a range of cultures across the globe.
-                </p>
-            </div>
-        </div>
-        <div id="right-about">
-            <div class="right-about-heading">
-                <h3>Quality Committment <i class="fa-solid fa-face-smile"></i></h3>
-                <hr>
-                <p>
-                    The Winpea brand & its associated team does its utmost to ensure all products that are purchased are to
-                    the highest quality. We are meticulous with our processes & our quality assurance is of top standard.
-                    If any products are found to be defective or not to an expected standard we are always happy to offer our 30-day
-                    money back guarantee.
-                </p>
-            </div>
-            <div class="right-about-heading">
-                <h3>Delivery & Shipping <i class="fa-solid fa-truck-fast"></i></h3>
-                <hr>
-                <p>
-                    We offer worldwide shipping with courier services being provided for each respective country we are able to deliver to.
-                    This process can takes 3-5 business days for Domestic delivery (inside Japan) and up to 2 weeks for International
-                    delivery.
-                </p>
-            </div>
-        </div>
-        <div id="center-about">
-            <div id="circle-container">
-                <div id="circle-cover-bg">
-
+            <div class="box">
+                <img src="/assets/images/necklace-5.jpg" alt="necklace 5" height="237" width="237">
+                <h4>Necklace 5</h4>
+                <h5>£40.00</h5>
+                <div class="cart">
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
                 </div>
             </div>
+            <div class="box">
+                <img src="/assets/images/necklace-6.jpg" alt="necklace 6" height="237" width="237">
+                <h4>Necklace 6</h4>
+                <h5>£40.00</h5>
+                <div class="cart">
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
         </div>
     </section>
 
+    <!-- about section -->
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2>Our vision</h2>
+            <p>
+                Thank you for visiting.
+
+                Based in the UK, we connect parts collected in Europe to create one-of-a-kind accessories.
+
+                Let alone a design and a concept,
+                We are also particular about materials, durability and practicality,
+                We make accessories that can be used for a long time for various purposes.
+
+                        Winpea.
+                        Enjoy fashion, enjoy the world.
+                        I hope it will be a trigger.
+        </div>
+    </section>
+    
 <footer>
     <div class="container-fluid">
         <div id="footer" class="row">
@@ -295,7 +210,7 @@
                                 <a class="nav-link" href="#"><i class="fas fa-envelope"></i>Contact us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="form.html"><i class="fas fa-star"></i>Give feedback</a>
+                                <a class="nav-link" href="#"><i class="fas fa-star"></i>Give feedback</a>
                             </li>
                         </ul>
                     </div>
@@ -341,9 +256,9 @@
             </div>
     </div>
 </footer>
+    <!-- bootstrap 5 script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/3f6d600d14.js" crossorigin="anonymous"></script>
-    
 </body>
 </html>
