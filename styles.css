@@ -32,17 +32,18 @@ a {
 }
 
 a:hover {
-  color: #fec503;
+  color: skyblue;
   text-decoration: none;
+  transform: translateY(-5px);
 }
 
 ::-moz-selection {
-  background: #fec503;
+  background: skyblue;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fec503;
+  background: skyblue;
   text-shadow: none;
 }
 
@@ -94,7 +95,7 @@ ul.social-buttons {
 ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
-  background-color: #fec503;
+  background-color: skyblue;
 }
 
 ul.social-buttons li a {
