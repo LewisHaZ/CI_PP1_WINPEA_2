@@ -1,9 +1,19 @@
 /*.col-md-4:nth-child(even) {
   // background: blue;
-}
+} /* testing purposes
 .col-md-4:nth-child(odd) {
   // background: red;
 }*/
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Libre Baskerville', serif;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
 body{
   display: flex;
   flex-direction: column;
