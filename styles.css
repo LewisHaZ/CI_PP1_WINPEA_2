@@ -1,49 +1,25 @@
 /*.col-md-4:nth-child(even) {
   // background: blue;
-} /* testing purposes
+}
 .col-md-4:nth-child(odd) {
   // background: red;
 }*/
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: 'Libre Baskerville', serif;
-  text-decoration: none;
-  list-style: none;
-  scroll-behavior: smooth;
-}
-
-body{
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  padding-top: 65px;
-}
-
-#footer{
-  background-color: #212529;
-  flex: 0 0 50px;
-  margin-top: auto;
-}
-
 a {
   color: #6c757d;
 }
 
 a:hover {
-  color: skyblue;
+  color: #fec503;
   text-decoration: none;
-  transform: translateY(-3\px);
 }
 
 ::-moz-selection {
-  background: skyblue;
+  background: #fec503;
   text-shadow: none;
 }
 
 ::selection {
-  background: skyblue;
+  background: #fec503;
   text-shadow: none;
 }
 
@@ -95,7 +71,7 @@ ul.social-buttons {
 ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
-  background-color: skyblue;
+  background-color: #fec503;
 }
 
 ul.social-buttons li a {
