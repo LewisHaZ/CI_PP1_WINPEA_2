@@ -71,7 +71,7 @@ ul.social-buttons {
 ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
-  background-color: #fec503;
+  background-color: #323868;
 }
 
 ul.social-buttons li a {
@@ -103,3 +103,10 @@ footer .quick-links {
   color: white;
   padding: 2rem 0;
 }/*# sourceMappingURL=styles.css.map */
+
+/* google maps */
+iframe{
+  width: 80%;
+  height: 500px;
+  filter: invert(100%);
+}
