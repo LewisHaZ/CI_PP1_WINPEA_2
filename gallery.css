@@ -1,27 +1,12 @@
 /* gallery */
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-h1{
-    text-align: center;
-    margin: 1em 0;
-}
-
-.gallery-container{
-    display: flex;
-    justify-content: center;
-}
 .gallery{
     display: flex;
     height: 70vh;
-    width: 90vw;
+    width: 50vw;
 }
 
-.item{
+.item-image{
     flex: 1;
     height: 100%;
     background-position: center;
@@ -30,22 +15,31 @@ h1{
     transition: flex 0.8s ease;
 }
 
-.item:hover{
+h2{
+    text-align: center;
+}
+
+main{
+    padding: 100px 8%;
+}
+
+.item-image:hover{
     flex: 80%;
 }
 
-.item1{
+.item-image1{
     background-image: url(./assets/images/bracelet_double.png) ;
 }
-.item2{
+.item-image2{
     background-image: url(./assets/images/bracelet-watch.png);
 }
-.item3{
+.item-image3{
     background-image: url(./assets/images/fuka-meet-team.jpg);
 }
-.item4{
+.item-image4{
     background-image: url(./assets/images/bracelet-2.jpg);
 }
-.item5{
+.item-image5{
     background-image: url(./assets/images/lewis-meet-team.jpg);
 }
+
