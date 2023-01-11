@@ -39,11 +39,6 @@ body{
   color: grey;
 }
 
-.carousel-item{
-  width: auto;
-  height: 700px;
-  object-fit: cover;
-}
 
 main{
   flex: 1 0 auto;
@@ -557,10 +552,3 @@ h2{
   color: var(--white);
 }
 
-@media (max-width: 768px) {
-  /* make carousel height for images bigger on small screens */
-  .carousel-item img{
-    height: 70vh;
-    object-fit: cover;
-  }
-}
