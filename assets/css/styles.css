@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 body{
   background-color: var(--bg-color);
@@ -7,6 +8,35 @@ body{
   flex-direction: column;
   min-height: 100vh;
   margin: 0;
+}
+
+/* header */
+.my-nav{
+  background-color: darkblue;
+}
+
+/* put links to the right */
+.my-collapse{
+  flex-grow: 0;
+}
+
+.navbar .brand-logo{
+  font-family: 'Pacifico' , cursive;
+  color: cadetblue;
+}
+
+.navbar .nav-icons .my-link{
+  color: rebeccapurple;
+  text-decoration: none;
+}
+
+.navbar .nav-pills .my-link.active{
+  background-color: #323868;
+  color: #6c757d;
+}
+
+.navbar .nav-icons .my-link:hover :not(.active){
+  color: grey;
 }
 
 .carousel-resize{
@@ -412,9 +442,6 @@ h2{
   scroll-behavior: smooth;
 }
 
-/*section{
-  padding: 100px 8%;
-}*/
 
 .container{
   display: grid;
