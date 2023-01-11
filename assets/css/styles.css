@@ -3,6 +3,8 @@
 
 :root{
   --bright-yellow: #FFFF00;
+  --dark-orange: #8B4000;
+  --jasmine: #f8de7e;
 }
 
 body{
@@ -24,7 +26,7 @@ h1, h2, h3, h4, h5, h6{
 
 /* header (nav bar) */
 .my-nav{
-  background-color: darkblue;
+  background-color: var(--dark-orange);
 }
 
 /* put links to the right */
@@ -34,7 +36,7 @@ h1, h2, h3, h4, h5, h6{
 
 .navbar .brand-logo{
   font-family: 'Pacifico' , cursive;
-  color: darkorange;
+  color: var(--jasmine);
   text-shadow:-1px -1px 0 #000,
   1px -1px 0 #000,
   -1px 1px 0 #000,
@@ -43,17 +45,17 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .navbar .nav-icons .my-link{
-  color: rebeccapurple;
+  color: black;
   text-decoration: none;
 }
 
 .navbar .nav-pills .my-link.active{
-  background-color: #323868;
-  color: #6c757d;
+  background-color: var(--jasmine);
+  color: black;
 }
 
 .navbar .nav-icons .my-link:hover :not(.active){
-  color: grey;
+  color: var(--jasmine);
 }
 
 .navbar-inner{
@@ -200,7 +202,7 @@ hr{
 /* meet team section */ 
 /* makes a circle container for images */
 .circle{
-  border: 1px solid var(--bright-yellow);
+  border: 1px solid var(--dark-orange);
   border-radius: 50%;
   z-index: 2;
   background-color: white;
@@ -214,7 +216,7 @@ hr{
 }
 
 .meet-profile p{
-  background-color: var(--bright-yellow);
+  background-color: var(--jasmine);
   color: black;
   padding: 5% 5% 5% 40%;
   margin-left: -35%;
@@ -226,7 +228,7 @@ hr{
 }
 
 .meet-profile2 p{
-  background-color: var(--bright-yellow);
+  background-color: var(--jasmine);
   color: black;
   padding: 5% 40% 5% 5%;
   margin-right: -35%;
