@@ -39,10 +39,10 @@ body{
   color: grey;
 }
 
-.carousel-resize{
-  width: 100vw;
+.carousel-item{
+  width: auto;
   height: 700px;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 main{
