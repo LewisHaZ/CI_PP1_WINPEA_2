@@ -6,7 +6,7 @@ body{
   font-family: 'Libre-Baskerville', sans-serif;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 70vh;
   margin: 0;
 }
 
@@ -22,7 +22,8 @@ body{
 
 .navbar .brand-logo{
   font-family: 'Pacifico' , cursive;
-  color: cadetblue;
+  color: silver;
+  text-shadow: 20px 20px #0000;
 }
 
 .navbar .nav-icons .my-link{
@@ -39,13 +40,17 @@ body{
   color: grey;
 }
 
+.navbar-inner{
+  background-image: url('/assets/images/diamond-effect.jpg');
+  background-repeat: repeat-x;
+}
 
 main{
   flex: 1 0 auto;
 }
-
+/*footer
 a {
-  color: #6c757d;
+  color: red;
 }
 
 a:hover {
@@ -98,6 +103,7 @@ footer {
 .footer-column ul {
   display: inline-block;
 }
+*/
 @media (min-width: 768px) {
   .footer-column ul {
     text-align: left;
@@ -142,7 +148,7 @@ footer .quick-links {
 .fa-ellipsis-h {
   color: white;
   padding: 2rem 0;
-}/*# sourceMappingURL=styles.css.map */
+}
 
 /* google maps */
 iframe{
@@ -154,7 +160,6 @@ iframe{
 /* brand ethos */
 #brand-ethos{
   height:auto;
-  padding-bottom: 100px;
 }
 
 #left-about{
