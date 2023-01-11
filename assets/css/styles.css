@@ -198,7 +198,7 @@ hr{
 }
 
 #circle-cover-bg{
-  background: url('./assets/images/winpea-small.jpg') no-repeat center center;
+  background: url('https://lewishaz.github.io/CI_PP1_WINPEA_2/assets/images/winpea-small.jpg') no-repeat center center;
   height: 100%;
   border-radius: 50%;
 }
@@ -387,20 +387,21 @@ h2{
 }
 
 .item-image1{
-  background-image: url(./assets/images/bracelet_double.png) ;
+  background-image: url('https://lewishaz.github.io/CI_PP1_WINPEA_2/assets/images/bracelet_double.png') ;
 }
 .item-image2{
-  background-image: url(./assets/images/bracelet-watch.png);
+  background-image: url('https://lewishaz.github.io/CI_PP1_WINPEA_2/assets/images/bracelet-watch.png');
 }
 .item-image3{
-  background-image: url(./assets/images/fuka-meet-team.jpg);
+  background-image: url('https://lewishaz.github.io/CI_PP1_WINPEA_2/assets/images/fuka-meet-team.jpg');
 }
 .item-image4{
-  background-image: url(./assets/images/bracelet-2.jpg);
+  background-image: url('https://lewishaz.github.io/CI_PP1_WINPEA_2/assets/images/bracelet-2.jpg');
 }
 .item-image5{
-  background-image: url(./assets/images/lewis-meet-team.jpg);
+  background-image: url('https://lewishaz.github.io/CI_PP1_WINPEA_2/assets/images/lewis-meet-team.jpg');
 }
+
 *{
   padding: 0;
   margin: 0;
@@ -411,9 +412,9 @@ h2{
   scroll-behavior: smooth;
 }
 
-section{
+/*section{
   padding: 100px 8%;
-}
+}*/
 
 .container{
   display: grid;
