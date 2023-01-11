@@ -57,11 +57,6 @@ h1, h2, h3, h4, h5, h6{
   background-repeat: repeat-x;
 }
 
-
-
-
-
-
 /* google maps */
 iframe{
   width: 80%;
@@ -172,7 +167,7 @@ hr{
       width: 90%;
       height:1200px;
       margin: 0 auto;
-      margin-bottom: 70%;
+      margin-bottom: 20%;
   }
 
   .left-about-heading, .right-about-heading{
@@ -218,7 +213,7 @@ hr{
   background-color: var(--bright-yellow);
   color: black;
   padding: 5% 5% 5% 40%;
-  margin-left: 35%;
+  margin-left: -35%;
   z-index: -1;
 }
 
