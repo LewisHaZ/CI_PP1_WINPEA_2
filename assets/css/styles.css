@@ -4,11 +4,14 @@
 :root{
   --bright-yellow: #FFFF00;
   --dark-orange: #8B4000;
-  --jasmine: #f8de7e;
+  --jasmine: #F8DE7E;
+  --washed-blue: #3792CB;
+  --lavender: #FBAED2;
+  --washed-white: #FAF9F6;
 }
 
 body{
-  background-color: var(--bg-color);
+  background-color: var(--lavender);
   font-family: 'Libre-Baskerville', sans-serif;
   display: flex;
   flex-direction: column;
@@ -45,17 +48,17 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .navbar .nav-icons .my-link{
-  color: black;
+  color: var(--off-white);
   text-decoration: none;
 }
 
 .navbar .nav-pills .my-link.active{
   background-color: var(--jasmine);
-  color: black;
+  color: var(--washed-white);
 }
 
 .navbar .nav-icons .my-link:hover :not(.active){
-  color: var(--jasmine);
+  color: var(--washed-white);
 }
 
 .navbar-inner{
@@ -93,7 +96,7 @@ iframe{
 }
 
 hr{
-  border-top: 1px solid #3a3a3a;
+  border-top: 5px solid #3a3a3a;
   width: 100%;
   margin: 5px 0;
 
@@ -129,9 +132,9 @@ hr{
   height: 300px;
   padding: 30px;
   border-style: solid;
-  border-color: #ccc;
+  border-color: var(--washed-white);
   border-width: 1px;
-  border-radius: 50%;
+  border-radius: 100%;
   margin: 0 auto;
 }
 
@@ -205,7 +208,7 @@ hr{
   border: 1px solid var(--dark-orange);
   border-radius: 50%;
   z-index: 2;
-  background-color: white;
+  background-color: var(--jasmine);
 }
 
 /* layers the image on top of the container */
@@ -217,7 +220,7 @@ hr{
 
 .meet-profile p{
   background-color: var(--jasmine);
-  color: black;
+  color: var(--washed-white);
   padding: 5% 5% 5% 40%;
   margin-left: -35%;
   z-index: -1;
@@ -229,7 +232,7 @@ hr{
 
 .meet-profile2 p{
   background-color: var(--jasmine);
-  color: black;
+  color: var(--washed-white);
   padding: 5% 40% 5% 5%;
   margin-right: -35%;
   z-index: -1;
@@ -392,14 +395,14 @@ h2{
 }
 
 .home-btn{
-  background-color: var(--bg-color);
-  color: var(--off-white);
+  background-color: var(--washed-white);
+  color: var(--lavender);
   text-decoration: none;
   display: block;
   border-radius: 0.25rem;
 }
 
 .home-btn:hover{
-  color: var(--white);
+  color: var(--washed-blue);
 }
 
