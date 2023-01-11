@@ -34,8 +34,12 @@ h1, h2, h3, h4, h5, h6{
 
 .navbar .brand-logo{
   font-family: 'Pacifico' , cursive;
-  color: silver;
-  text-shadow: 20px 20px #0000;
+  color: darkorange;
+  text-shadow:-1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+  
 }
 
 .navbar .nav-icons .my-link{
