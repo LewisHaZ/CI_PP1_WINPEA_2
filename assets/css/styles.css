@@ -65,9 +65,14 @@ h1, h2, h3, h4, h5, h6{
   background-repeat: repeat-x;
 }
 
+/*carousel images*/
 .carousel-inner > .carousel-item > img {
   width: 900px;
   height: 1100px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  background-color: #000;
 }
 
 /* google maps */
