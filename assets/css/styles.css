@@ -217,6 +217,18 @@ hr{
   z-index: -1;
 }
 
+.meet-profile2 h4{
+  text-align: right;
+}
+
+.meet-profile2 p{
+  background-color: var(--bright-yellow);
+  color: black;
+  padding: 5% 40% 5% 5%;
+  margin-right: -35%;
+  z-index: -1;
+}
+
 
 /* gallery */
 
