@@ -48,12 +48,12 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .navbar .nav-icons .my-link{
-  color: var(--off-white);
+  color: var(--washed-white);
   text-decoration: none;
 }
 
 .navbar .nav-pills .my-link.active{
-  background-color: var(--jasmine);
+  background-color: var(--lavender);
   color: var(--washed-white);
 }
 
@@ -128,12 +128,12 @@ hr{
 
 
 #circle-container{
-  width: 300px;
-  height: 300px;
-  padding: 30px;
+  width: 280px;
+  height: 280px;
+  padding: 35px;
   border-style: solid;
   border-color: var(--washed-white);
-  border-width: 1px;
+  border-width: 5px;
   border-radius: 100%;
   margin: 0 auto;
 }
