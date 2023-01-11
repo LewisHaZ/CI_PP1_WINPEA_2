@@ -39,25 +39,25 @@ h1, h2, h3, h4, h5, h6{
 
 .navbar .brand-logo{
   font-family: 'Pacifico' , cursive;
-  color: var(--jasmine);
-  text-shadow:-1px -1px 0 #000,
-  1px -1px 0 #000,
-  -1px 1px 0 #000,
-  1px 1px 0 #000;
+  color: #000;
+  text-shadow:-1px -1px 0 #ffff,
+  1px -1px 0 #ffff,
+  -1px 1px 0 #ffff,
+  1px 1px 0 #ffff;
 }
 
-.navbar .nav-icons .my-link{
-  color: var(--washed-white);
+.navbar .nav-pills .my-link{
+  color: #000;
   text-decoration: none;
 }
 
 .navbar .nav-pills .my-link.active{
-  background-color: var(--washed-white);
-  color: var(--washed-white);
+  background-color: #000;
+  color: var(--dark-orange);
 }
 
-.navbar .nav-icons .my-link:hover :not(.active){
-  color: var(--washed-white);
+.navbar .nav-pills .my-link:hover :not(.active){
+  color: #000;
 }
 
 .navbar-inner{
