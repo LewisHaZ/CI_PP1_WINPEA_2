@@ -22,76 +22,32 @@
 <body>
     <header>
         <!--nav bar section-->
-        <nav class="navbar fixed-top navbar-expand-md navbar-dark" style="background-color: #1a1d20">
-            <div class="container-fluid">
-            <a
-            href="index.html" 
-            class="navbar-brand mb-0 h1">
-                <img
-                class="d-line-block align-top"
-                src="https://lewishaz.github.io/CI_PP1_WINPEA_2/assets/images/winpea-small.jpg"
-                width="75" height="75" 
-                alt="brand logo">
-            </a>
-            <button
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            class="navbar-toggler"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-            >
-            <span class="navbar-toggler-icon"></span>
+       <nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark my-nav">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand brand-logo fs-2">Winpea world</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false"
+                aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-
-            <div
-            class="collapse navbar-collapse" 
-            id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a href="index.html" class="nav-link active">
-                        Home
-                    </a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a href="#" class="nav-link 
-                    dropdown-toggle"
-                    id="navbarDropDown" role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                    >
-                        Content
-                    </a>
-                    <ul class="dropdown-menu" 
-                    aria-labelledby="navbarDropDown">
-                    <li><a href="aboutus.html"
-                        class="dropdown-item">About us</a></li>
-                    <li><a href="gallery.html"
-                        class="dropdown-item">Gallery</a></li>
-                    <li><a href="#meet-team-section"
-                        class="dropdown-item">Our team</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item active">
-                    <a href="catalogue.html" class="nav-link">
-                        Catalogue
-                    </a>
-                </li>
+            <div class="collapse navbar-collapse my-collapse nav-icons" id="navbarToggler">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link my-link active" aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link my-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link my-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link my-link">Contact Us</a>
+                    </li>
                 </ul>
             </div>
-            <div class="icons">
-                <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
-                <a href="#"><i class="fa-solid fa-globe"></i></a>
-            </div>
-            <form class="d-flex">
-                <input type="text" class="form-control me-2">
-                <button type="submit" class="btn 
-                btn-primary">Search</button>
-                </button>
-            </form>
         </div>
-    </nav>
+       </nav>
 </header>
     <main>
         <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
