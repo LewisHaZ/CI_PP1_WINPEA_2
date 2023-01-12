@@ -287,19 +287,19 @@ hr{
 }
 
 .item-image1{
-  background-image: url('assets/images/bracelet_double.png') ;
+  background-image: url('/assets/images/bracelet-1.jpg') ;
 }
 .item-image2{
-  background-image: url('assets/images/bracelet-watch.png');
+  background-image: url('/assets/images/bracelet-watch.png');
 }
 .item-image3{
-  background-image: url('assets/images/fuka-meet-team.jpg');
+  background-image: url('/assets/images/bracelet_double.png');
 }
 .item-image4{
-  background-image: url('assets/images/bracelet-2.jpg');
+  background-image: url('/assets/images/bracelet-2.jpg');
 }
 .item-image5{
-  background-image: url('assets/images/lewis-meet-team.jpg');
+  background-image: url('/assets/images/winpea_logo.jpg');
 }
 
 *{
