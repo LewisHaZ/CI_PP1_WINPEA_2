@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6{
 
 /*carousel images*/
 .carousel-inner > .carousel-item > img {
-  width: 900px;
+  width: auto;
   height: 1100px;
 }
 
@@ -216,6 +216,14 @@ hr{
   }
 }
 
+@media (max-width: 768px){
+  .carousel-item img{
+    height: 70vh;
+    object-fit: cover;
+  }
+}
+  
+
 /* meet team section */ 
 /* makes a circle container for images */
 .circle{
@@ -251,6 +259,7 @@ hr{
   margin-right: -35%;
   z-index: -1;
 }
+
 
 /* footer */
 
