@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .navbar-inner{
-  background-image: url('/assets/images/diamond-effect.jpg');
+  background-image: url('https://lewishaz.github.io/CI_PP1_WINPEA_2/assets/images/diamond-effect.jpg');
   background-repeat: repeat-x;
 }
 
@@ -231,7 +231,7 @@ hr{
   border: 3px solid #000;
   border-radius: 50%;
   z-index: 2;
-  background-image: url(/assets/images/diamond-effect.jpg);
+  background-image: url('https://lewishaz.github.io/CI_PP1_WINPEA_2/assets/images/diamond-effect.jpg');
 }
 
 /* layers the image on top of the container */
@@ -288,19 +288,19 @@ hr{
 }
 
 .item-image1{
-  background-image: url('/assets/images/bracelet-1.jpg') ;
+  background-image: url('https://lewishaz.github.io/CI_PP1_WINPEA_2/assets/images/bracelet-1.jpg') ;
 }
 .item-image2{
-  background-image: url('/assets/images/bracelet-watch.png');
+  background-image: url('https://lewishaz.github.io/CI_PP1_WINPEA_2/assets/images/bracelet-watch.png');
 }
 .item-image3{
-  background-image: url('/assets/images/bracelet_double.png');
+  background-image: url('https://lewishaz.github.io/CI_PP1_WINPEA_2/assets/images/bracelet_double.png');
 }
 .item-image4{
-  background-image: url('/assets/images/bracelet-2.jpg');
+  background-image: url('https://lewishaz.github.io/CI_PP1_WINPEA_2/assets/images/bracelet-2.jpg');
 }
 .item-image5{
-  background-image: url('/assets/images/winpea_logo.jpg');
+  background-image: url('https://lewishaz.github.io/CI_PP1_WINPEA_2/assets/images/winpea_logo.jpg');
 }
 
 *{
