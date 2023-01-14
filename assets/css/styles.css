@@ -27,6 +27,14 @@ h1, h2, h3, h4, h5, h6{
   font-family: "Pacifico", sans-serif;
 }
 
+/* back to top button */
+#btn-back-to-top{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+
 /* header (nav bar) */
 .my-nav{
   background-color: #000;
