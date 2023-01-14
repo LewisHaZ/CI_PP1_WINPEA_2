@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6{
 
 /* header (nav bar) */
 .my-nav{
-  background-color: var(--dark-orange);
+  background-color: #000;
 }
 
 /* put links to the right */
@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6{
 
 .navbar .nav-pills .my-link.active{
   background-color: #000;
-  color: var(--dark-orange);
+  color: var(--washed-white);
 }
 
 .navbar .nav-pills .my-link:hover :not(.active){
@@ -133,21 +133,21 @@ hr{
 }
 
 .left-about-heading p{
-  color: var(--dark-orange);
+  color: #000;
 }
 
 .right-about-heading p{
   text-align: right;
-  color: var(--dark-orange);
+  color: #000;
 }
 
 
 #circle-container{
   width: 280px;
   height: 280px;
-  padding: 35px;
+  padding: 25px;
   border-style: solid;
-  border-color: var(--washed-white);
+  background-image: url('https://lewishaz.github.io/CI_PP1_WINPEA_2/assets/images/diamond-effect.jpg');
   border-width: 5px;
   border-radius: 100%;
   margin: 0 auto;
@@ -243,7 +243,7 @@ hr{
 
 .meet-profile p{
   background-color: #000;
-  color: var(--dark-orange);
+  color: var(--washed-white);
   padding: 5% 5% 5% 40%;
   margin-left: -35%;
   z-index: -1;
@@ -255,7 +255,7 @@ hr{
 
 .meet-profile2 p{
   background-color: #000;
-  color: var(--dark-orange);
+  color: var(--washed-white);
   padding: 5% 40% 5% 5%;
   margin-right: -35%;
   z-index: -1;
@@ -356,20 +356,15 @@ hr{
   left: 0;
   width: 100px;
   height: 35px;
-  background: var(--text-color);
-  color: var(--bg-color);
+  background: var(--washed-white);
+  color: var(--washed-blue);
   display: inline-flex;
   align-items: center;
   justify-content: center;
   font-size: 28px;
-
 }
 
-.box:hover{
-  transform: translateY(-5px);
-}
-
-/*
+/* Our Vision Section */
 .about{
   background: #fff;
   display: flex;
@@ -389,28 +384,15 @@ hr{
 
 .about-content p{
   max-width: 600px;
-  font-size: var(--p-font);
+  font-size: 20px;
   font-weight: 600;
-  color: var(--text-color);
+  color: #000;
   line-height: 30px;
 }
 
-.icons{
-  display: inline-block;
+.box:hover{
+  transform: translateY(-5px);
 }
-
-.icons i{
-  color: var(--dark-orange);
-  font-size: 34px;
-  margin-left: 15px;
-  margin-right: 10px;
-
-}
-
-.icons i:hover{
-  opacity: 0.7;
-}
-*/
 
 /* 404 page */
 #error-img{
