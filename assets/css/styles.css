@@ -411,3 +411,8 @@ hr{
   color: var(--washed-blue);
 }
 
+@media (max-width: 568px) {
+  .gallery{
+    width: 100%;
+  }
+}
