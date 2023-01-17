@@ -51,8 +51,8 @@ h1, h2, h3, h4, h5, h6{
 
 /* mission statement */
 .m-statement{
-  background-color: var(--lavender);
-  color: #000;
+  background-color: #000;
+  color: var(--washed-white);
 }
 
 .m-statement p{
