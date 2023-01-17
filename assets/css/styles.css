@@ -43,6 +43,29 @@ h1, h2, h3, h4, h5, h6{
   background-color: #000;
 }
 
+.my-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* mission statement */
+.m-statement{
+  background-color: var(--lavender);
+  color: #000;
+}
+
+.m-statement p{
+  text-align: center;
+  font-style: italic;
+}
+
+.m-statement h3{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
 /* put links to the right */
 .my-collapse{
   flex-grow: 0;
