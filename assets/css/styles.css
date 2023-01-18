@@ -343,17 +343,6 @@ hr{
   scroll-behavior: smooth;
 }
 
-
-.container{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(360px, auto));
-  align-items: center;
-  gap: 2rem;
-  text-align: center;
-  cursor: pointer;
-  padding-top: 2rem;
-}
-
 .box{
   padding: 0px 20px 10px 20px;
   background: transparent;
@@ -441,12 +430,12 @@ hr{
   color: var(--washed-blue);
 }
 
-@media screen and (max-width: 569px) {
+@media screen and (max-width: 568px) {
   .gallery{
     width: 100%;
   }
-  .container, .container-fluid{
-    overflow: hidden;
+  main{ 
+    overflow-x: hidden;
   }
 
 }
