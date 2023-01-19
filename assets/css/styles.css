@@ -272,16 +272,6 @@ hr{
       text-align: center;
       padding: 0 20px;
   }
-
-  #photos{
-      column-count: 3;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  #photos{
-      column-count: 2;
-  }
 }
 
 @media (max-width: 768px){
@@ -333,8 +323,8 @@ hr{
 
 .gallery{
   display: flex;
-  height: 70vh;
-  width: 50vw;
+  height: 80vh;
+  width: 90vw;
 }
 
 .gallery hr{
@@ -351,7 +341,7 @@ hr{
 }
 
 .item-image:hover{
-  flex: 80%;
+  flex: 20%;
 }
 
 .item-image1{
@@ -368,6 +358,21 @@ hr{
 }
 .item-image5{
   background-image: url('https://lewishaz.github.io/CI_PP1_WINPEA_2/assets/images/winpea_logo.jpg');
+}
+.item-image6{
+  background-image: url('/assets/images/visual-reference-store.jpg');
+}
+.item-image7{
+  background-image: url('/assets/images/carousel-1.jpg');
+}
+.item-image8{
+  background-image: url('/assets/images/carousel-2.jpg');
+}
+.item-image9{
+  background-image: url('/assets/images/carousel-3.jpg');
+}
+.item-image10{
+  background-image: url('/assets/images/carousel-4.jpg');
 }
 
 *{
@@ -473,14 +478,23 @@ hr{
 }
 
 @media screen and (max-width: 568px) {
-  .gallery{
-    width: 100%;
-  }
   main{ 
     overflow-x: hidden;
   }
-
 }
+
+/* give embeded video max dimensions and center horizontaly on page */
+.my-video-yt {
+  max-width: 800px;
+  max-height: 450px;
+  margin: 0 auto;
+}
+
+.my-video {
+  max-width: 800px;
+  max-height: 450px;
+}
+
 
 /* footer styles */
 .footer-color{
