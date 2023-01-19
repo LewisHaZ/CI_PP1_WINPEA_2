@@ -483,18 +483,22 @@ hr{
   }
 }
 
+
 /* give embeded video max dimensions and center horizontaly on page */
 .my-video-container {
-  max-width: 800px;
+  max-width: 700px;
   max-height: 450px;
   margin: 0 auto;
+}
+
+.youtube-title{
+  text-align: center;
 }
 
 .my-video {
   max-width: 800px;
   max-height: 450px;
 }
-
 
 /* footer styles */
 .footer-color{
