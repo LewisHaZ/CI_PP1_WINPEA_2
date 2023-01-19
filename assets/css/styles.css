@@ -484,7 +484,7 @@ hr{
 }
 
 /* give embeded video max dimensions and center horizontaly on page */
-.my-video-yt {
+.my-video-container {
   max-width: 800px;
   max-height: 450px;
   margin: 0 auto;
