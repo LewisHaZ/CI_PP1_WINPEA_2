@@ -1,15 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
+/* Colours used often */
 :root{
-  --bright-yellow: #FFFF00;
-  --dark-orange: #8B4000;
-  --jasmine: #F8DE7E;
   --washed-blue: #3792CB;
-  --lavender: #FBAED2;
   --washed-white: #FAF9F6;
 }
 
+/* Setting hamburger icon */
 .navbar-toggler-icon{
   background-image: none!important;
   background-color: #000;
@@ -36,6 +34,7 @@
   display: block;
 }
 
+/* Bootstrap styling override, setting the min-height 100vh has been done to fix whitespace below footer element */
 body{
   background-color: var(--washed-white);
   font-family: 'Libre-Baskerville', sans-serif;
@@ -45,6 +44,14 @@ body{
   margin: 0;
 }
 
+/* thematic break styling, used to break up content in several sections of the website */
+hr{
+  border-top: 5px solid #3a3a3a;
+  width: 100%;
+  margin: 5px 0;
+}
+
+/* Parameters set up for the Catalogue page to build a grid */
 .container{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(360px, auto));
@@ -53,10 +60,6 @@ body{
   text-align: center;
   cursor: pointer;
   padding-top: 2rem;
-}
-
-#quote-liberty{
-  text-align: center;
 }
 
 main{
@@ -107,11 +110,17 @@ h1, h2, h3, h4, h5, h6{
   font-weight: bolder;
 }
 
+/* center liberty quote within paragraph */
+#quote-liberty{
+  text-align: center;
+}
+
 /* put links to the right */
 .my-collapse{
   flex-grow: 0;
 }
 
+/* Set parameters for the website logo */
 .navbar .brand-logo{
   font-family: 'Pacifico' , cursive, sans-serif;
   color: #ffff;
@@ -121,20 +130,24 @@ h1, h2, h3, h4, h5, h6{
   1px 1px 0 #000;
 }
 
+/* Set font and colour for nav bar elements */
 .navbar .nav-pills .my-link{
   color: #000;
   font-family: 'Pacifico' , cursive, sans-serif;
 }
 
+/* Current page has a black pill shaped background added to it */
 .navbar .nav-pills .my-link.active{
   background-color: #000;
   color: var(--washed-white);
 }
 
+/* Nav bar elements that are not active light up white when hovered over */
 .navbar .nav-pills .my-link:hover:not(.active){
   color: #fff;
 }
 
+/* Setting background image for the entire navbar and repeating it */
 .navbar-inner{
   background-image: url('https://lewishaz.github.io/CI_PP1_WINPEA_2/assets/images/diamond-effect.jpg');
   background-repeat: repeat-x;
@@ -146,6 +159,7 @@ h1, h2, h3, h4, h5, h6{
   height: 1100px;
 }
 
+/* previous and next icons */
 .carousel-control-prev-icon, .carousel-control-next-icon{
   background-color: #000;
 }
@@ -171,12 +185,6 @@ h1, h2, h3, h4, h5, h6{
 #center-about{
   width: 33%;
   margin: 0 auto;
-}
-
-hr{
-  border-top: 5px solid #3a3a3a;
-  width: 100%;
-  margin: 5px 0;
 }
 
 .left-about-heading{
@@ -208,7 +216,7 @@ hr{
   color: #000;
 }
 
-
+/* central image container with styling and background image applied */
 #circle-container{
   width: 280px;
   height: 280px;
@@ -226,33 +234,7 @@ hr{
   border-radius: 50%;
 }
 
-@media screen and (max-width: 1200px){
-  #brand-ethos{
-      width: 65%;
-      height:1200px;
-      margin: 0 auto;
-      margin-bottom: 25%;
-  }
-  
-  #left-about, #right-about{
-      width: 100%;
-      float: left;
-      padding: 0;
-  }
-
-  #center-about{
-      clear: both;
-      width: 100%;
-      float: left;
-      padding: 0;
-  }
-  
-  hr{
-      display: none;
-  }
-
-}
-
+/* media queries for smaller sized screens */
 @media screen and (max-width: 1200px){
   #brand-ethos{
       width: 90%;
@@ -260,6 +242,22 @@ hr{
       margin: 0 auto;
       margin-bottom: 20%;
   }
+  #left-about, #right-about{
+    width: 100%;
+    float: left;
+    padding: 0;
+}
+
+#center-about{
+    clear: both;
+    width: 100%;
+    float: left;
+    padding: 0;
+}
+/* disable thematic break element */
+hr{
+    display: none;
+}
 
   .left-about-heading, .right-about-heading{
       width: inherit;
@@ -274,10 +272,18 @@ hr{
   }
 }
 
+/* Increase height of the carousel images for smaller screen sizes */
 @media (max-width: 768px){
   .carousel-item img{
     height: 70vh;
     object-fit: cover;
+  }
+}
+
+/* hides overflow and disables horizontal scrolling when on smaller screen sizes */
+@media screen and (max-width: 568px) {
+  main{ 
+    overflow-x: hidden;
   }
 }
   
@@ -298,6 +304,7 @@ hr{
   z-index: 3;
 }
 
+/* text area for the meet team description */
 .meet-profile p{
   background-color: #000;
   color: var(--washed-white);
@@ -306,10 +313,12 @@ hr{
   z-index: -1;
 }
 
+/* align the titles for team members name */
 .meet-profile2 h4{
   text-align: right;
 }
 
+/* text area for the meet team description but aligned to left side */
 .meet-profile2 p{
   background-color: #000;
   color: var(--washed-white);
@@ -318,19 +327,19 @@ hr{
   z-index: -1;
 }
 
-
 /* gallery */
-
 .gallery{
   display: flex;
   height: 80vh;
   width: 90vw;
 }
 
+/* extend thematic break across full container */
 .gallery hr{
   width: 100%;
 }
 
+/* gallery image class & animation */
 .item-image{
   flex: 1;
   height: 100%;
@@ -340,10 +349,12 @@ hr{
   transition: flex 0.8s ease;
 }
 
+/* zooms into the image when hovered and takes up container space*/
 .item-image:hover{
   flex: 20%;
 }
 
+/* images 1 through 10 for the gallery section */
 .item-image1{
   background-image: url('https://lewishaz.github.io/CI_PP1_WINPEA_2/assets/images/bracelet-1.jpg') ;
 }
@@ -375,6 +386,7 @@ hr{
   background-image: url('https://lewishaz.github.io/CI_PP1_WINPEA_2/assets/images/carousel-4.jpg');
 }
 
+/* boilerplate css setup */
 *{
   padding: 0;
   margin: 0;
@@ -385,6 +397,7 @@ hr{
   scroll-behavior: smooth;
 }
 
+/* catalogue page */
 .box{
   padding: 0px 20px 10px 20px;
   background: transparent;
@@ -399,18 +412,21 @@ hr{
   height: auto;
 }
 
+/* Item name */
 .box h4{
   font-size: 15px;
   letter-spacing: 1px;
   margin-bottom: 8px;
 }
 
+/* Product price */
 .box h5{
   font-size: 14px;
   letter-spacing: 1px;
   margin-bottom: 20px;
 }
 
+/* Cart overlay image styling */
 .box .cart i{
   position: absolute;
   top: 0;
@@ -423,6 +439,11 @@ hr{
   align-items: center;
   justify-content: center;
   font-size: 28px;
+}
+
+/* move the image slightly when the user hovers */
+.box:hover{
+  transform: translateY(-5px);
 }
 
 /* Our Vision Section */
@@ -451,15 +472,13 @@ hr{
   line-height: 30px;
 }
 
-.box:hover{
-  transform: translateY(-5px);
-}
 
 /* 404 page */
 #error-img{
   max-width: 500px;
 }
 
+/* return to home button styling */
 .home-btn{
   background-color: var(--washed-white);
   color: #000;
@@ -473,16 +492,10 @@ hr{
   1px 1px 0 #ffff;
 }
 
+/* lights up blue when hovered over */
 .home-btn:hover{
   color: var(--washed-blue);
 }
-
-@media screen and (max-width: 568px) {
-  main{ 
-    overflow-x: hidden;
-  }
-}
-
 
 /* give embeded video max dimensions and center horizontaly on page */
 .my-video-container {
