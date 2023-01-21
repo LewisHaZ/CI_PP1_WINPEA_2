@@ -1,7 +1,7 @@
 # Winpea World
 (Developer: Lewis Hazelwood)
 
-![Live Webpage](https://lewishaz.github.io/CI_PP1_WINPEA_2/)
+[Live Webpage](https://lewishaz.github.io/CI_PP1_WINPEA_2/)
 
 ## Table of Contents
 
