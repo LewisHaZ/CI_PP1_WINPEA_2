@@ -1,4 +1,9 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Winpea World
+(Developer: Lewis Hazelwood)
+
+![Live Webpage](https://lewishaz.github.io/CI_PP1_WINPEA_2/)
+
+## Table of Contents
 
 Welcome LewisHaZ,
 
