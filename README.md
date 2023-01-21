@@ -1,6 +1,8 @@
 # Winpea World
 (Developer: Lewis Hazelwood)
 
+![Mockup image](docs/am-i-responsive-test.png)
+
 [Live Webpage](https://lewishaz.github.io/CI_PP1_WINPEA_2/)
 
 ## Table of Contents
@@ -10,7 +12,7 @@
     2. [Returning User Goals](#returning-user-goals)
     3. [Site Owner goals](#site-owner-goals)
 2. [User Experience](#user-experience)
-    1. [Target Audience][#target-audience]
+    1. [Target Audience](#target-audience)
     2. [User Requirements & Expectations](#user-requirements-&-expectations)
     3. [User Stories](#user-stories)
 3. [Design](#design)
@@ -35,3 +37,8 @@
 9. [Deployment](#deployment)
 10. [Credits](#credits)
 11. [Acknowledgements](#acknowledgements)
+
+## Project Goals
+
+## User Goals
+- 
