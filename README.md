@@ -123,6 +123,20 @@ Each webpage on the site is created so that the user can be easily familiarised 
 
 ### Wireframes
 
+<details><summary>Home</summary>
+<img src="docs/wireframes/Home-Page.png">
+</details>
+<details><summary>Catalogue</summary>
+<img src="docs/wireframes/Catalogue.png">
+</details>
+<details><summary>Gallery</summary>
+<img src="docs/wireframes/Gallery.png">
+</details>
+<details><summary>Contact Us</summary>
+<img src="docs/wireframes/Contactus.png">
+</details>
+
+
 ## Technologies Used
 
 ### Languages
