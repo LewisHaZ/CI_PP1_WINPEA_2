@@ -93,3 +93,52 @@
 15. As the site owner, I want users to easily find the store.
 16. As the site owner, I want users to be able to contact us at any time and by any means.
 
+## Design
+
+### Design Choices
+- The design choice for the website was to be based around the colour & shine that a diamond provides, this is actually
+the navbar & footer background itself but it has been repeated in order to fill the width of the webpage.
+
+- I wanted to use this diamond shine effect across many elements on the website I included it within the imagery on the home
+page to represent a ring shape around the team members that I've put there.
+<br>
+![Diamond design](docs/features/diamond-effect.jpg)
+
+### Colour
+The colour scheme for the website was to follow the brand logo's simple black and white; and thus I have kept all the writing and font elements
+contrast so the readability is high. These simple colours mesh very well with the diamond design I've chosen and allow the imagery to pop out.
+
+### Fonts
+Pacifico used for the headings & nav bar elements with Sans Serif & cursive as a fallback.
+<br>
+Libre Baskerville used as the main body font and Serif used as a fallback.
+
+### Structure
+Each webpage on the site is created so that the user can be easily familiarised with what content they are looking at. There is a navigation bar, with the brand logo aligned to the left side and the page links on the right. The structure allows user to easily pick out what content they are searching for, the pages are as follows:
+
+- A landing page with sections consisting of carousel images, welcome section & meet the staff section
+- A catalogue page with a list of products the company makes
+- A gallery page with a panel of various images encompassing many aspects of the brand
+- A contact us page with a contact form, an image to visualise the store location, a map and contact details
+
+### Wireframes
+
+## Technologies Used
+
+### Languages
+- HTML
+- CSS
+- Javascript
+
+### Frameworks & Tools
+- Bootstrap v5.0.2
+- Git
+- GitHub
+- Gitpod
+- Paint
+- Balsamiq
+- Google Fonts
+- Font Awesome
+- Favicon
+
+
