@@ -531,7 +531,7 @@ hr{
 
 /* visited link */
 a:visited {
-  color: green;
+  color: blueviolet;
 }
 
 /* mouse over link */
