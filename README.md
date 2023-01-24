@@ -191,3 +191,47 @@ Meet the team
 ![Meet the team 2](docs/features/meet-the-team-2-feature.png)
 ![Meet the team 3](docs/features/meet-the-team-3-feature.png)
 ![Meet the team 4](docs/features/meet-the-team-4-feature.png)
+
+History
+- Gives a brief overview of the brand's inspirations, when the brand was founded and who the biggest influence on the direction of the brand is plus their store location.
+- An image pushed to the right showing the Liberty London department store included too.
+
+![History](docs/features/brand-history-feature.png)
+
+Brand Mission statement
+- A statement of intent from the CEO of the brand, includes an itallic font style to highlight importance whilst also making the writing pop with a black background.
+
+![Brand Mission statement](docs/features/brand-statement-feature.png)
+
+Liberty influence
+- A quote from the original owner of the Liberty brand, the quote is to reinforce the direction of the brand.
+
+![Liberty influence](docs/features/liberty-influence-quote-feature.png)
+
+Footer
+- Included on all pages for consistency and ease of access.
+- Diamond design also used for the footer background, same as the navigation bar & other imagery.
+- Three sections included: Information for location/contact number, Opening times of the store & social media links.
+
+![Footer](docs/features/footer-feature.png)
+
+Back to Top button
+- Included on the Home & Catalogue pages: I have deemed these pages to be scrolling-intensive across all devices.
+- To ease the strain for each user and to decrease the chance of them leaving the website I have included the back to top button.
+- The button will return the user back to the very top of the page when pressed and can be pressed whenever the user scrolls and is not at the top of the page.
+
+![Back to top button](docs/features/back-2-top-feature.png)
+
+Catalogue
+- A selection of Winpea's best products collated onto one page.
+- Each product includes a name, price tag and an image.
+- A cart icon is included on each in the top left of the image.
+
+![Catalogue](docs/features/catalogue-feature.png)
+
+Our Vision
+- A short paragraph on the bottom of the catalogue page which thanks customers for visiting.
+- An affirmation of Winpea's quality of operations, reaching across Europe and the globe.
+
+![Vision](docs/features/vision-feature.png)
+
