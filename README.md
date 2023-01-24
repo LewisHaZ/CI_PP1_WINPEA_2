@@ -235,3 +235,33 @@ Our Vision
 
 ![Vision](docs/features/vision-feature.png)
 
+Gallery
+- A selection of photos for the brand arrange in a row.
+- Each photo is split but you're able to focus on each one.
+
+![Gallery](docs/features/gallery-feature.png)
+
+Youtube Promo video
+- A YouTube video to showcase the brand's exploration of the globe and research.
+
+![Youtube Promo video](docs/features/youtube-video-feature.png)
+
+Contact form
+- A feature to allow the user to provide feedback to the brand.
+
+![Contact form](docs/features/contact-form-feature.png)
+
+Map (store location)
+- Google maps embeded into the contact us page, gives directions to the user.
+
+![Map](docs/features/google-maps-feature.png)
+
+Details/Information
+- Gives the user the information they need to contact the brand owner.
+
+![Details & Info](docs/features/brand-details-feature.png)
+
+Store Location Image
+- An image that showcases the location of the store's building.
+
+![Store Image](docs/features/brand-store-location-feature.png)
