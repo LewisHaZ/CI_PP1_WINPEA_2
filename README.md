@@ -157,9 +157,9 @@ Each webpage on the site is created so that the user can be easily familiarised 
 - Favicon
 
 ## Features
-The Winpea World website is made up of 4 pages & x features.
+The Winpea World website is made up of 4 pages & 17 features.
 
-Brand Logo & Navigation Bar
+### Brand Logo & Navigation Bar
 - Consistent across all pages.
 - The brand logo can be clicked to return to the home page.
 - The navigation bar is responsive and uses a hamburger toggler for mobile sized screens, it includes the links for each page.
@@ -168,13 +168,13 @@ Brand Logo & Navigation Bar
 
 ![Brand logo & navigation bar](docs/features/brand-logo-nav-bar-feature.png)
 
-Carousel
+### Carousel
 - Showcases some of the brand's work in a 4 photo slide show.
 - The user can choose which slide to view by using the back and forward arrows as well as the slide indicators at the bottom center.
 
 ![Carousel](docs/features/carousel-feature.png)
 
-Welcome
+### Welcome
 - This section gives the user a brief description of many aspects of the company.
 - A quote from the brand owner to give the brand identity.
 - Quality & Delivery guarantees in order to build trust.
@@ -182,7 +182,7 @@ Welcome
 
 ![Welcome](docs/features/welcome-feature.png)
 
-Meet the team
+### Meet the team
 - The next section on the homepage introduces users to the staff working at Winpea World.
 - Each member's profile is broken up with a line stretching the width of the window.
 - The profile's also alternate from left to right, twice respectively & in that order.
@@ -192,76 +192,76 @@ Meet the team
 ![Meet the team 3](docs/features/meet-the-team-3-feature.png)
 ![Meet the team 4](docs/features/meet-the-team-4-feature.png)
 
-History
+### History
 - Gives a brief overview of the brand's inspirations, when the brand was founded and who the biggest influence on the direction of the brand is plus their store location.
 - An image pushed to the right showing the Liberty London department store included too.
 
 ![History](docs/features/brand-history-feature.png)
 
-Brand Mission statement
+### Brand Mission statement
 - A statement of intent from the CEO of the brand, includes an itallic font style to highlight importance whilst also making the writing pop with a black background.
 
 ![Brand Mission statement](docs/features/brand-statement-feature.png)
 
-Liberty influence
+### Liberty influence
 - A quote from the original owner of the Liberty brand, the quote is to reinforce the direction of the brand.
 
 ![Liberty influence](docs/features/liberty-influence-quote-feature.png)
 
-Footer
+### Footer
 - Included on all pages for consistency and ease of access.
 - Diamond design also used for the footer background, same as the navigation bar & other imagery.
 - Three sections included: Information for location/contact number, Opening times of the store & social media links.
 
 ![Footer](docs/features/footer-feature.png)
 
-Back to Top button
+### Back to Top button
 - Included on the Home & Catalogue pages: I have deemed these pages to be scrolling-intensive across all devices.
 - To ease the strain for each user and to decrease the chance of them leaving the website I have included the back to top button.
 - The button will return the user back to the very top of the page when pressed and can be pressed whenever the user scrolls and is not at the top of the page.
 
 ![Back to top button](docs/features/back-2-top-feature.png)
 
-Catalogue
+### Catalogue
 - A selection of Winpea's best products collated onto one page.
 - Each product includes a name, price tag and an image.
 - A cart icon is included on each in the top left of the image.
 
 ![Catalogue](docs/features/catalogue-feature.png)
 
-Our Vision
+### Our Vision
 - A short paragraph on the bottom of the catalogue page which thanks customers for visiting.
 - An affirmation of Winpea's quality of operations, reaching across Europe and the globe.
 
 ![Vision](docs/features/vision-feature.png)
 
-Gallery
+### Gallery
 - A selection of photos for the brand arrange in a row.
 - Each photo is split but you're able to focus on each one.
 
 ![Gallery](docs/features/gallery-feature.png)
 
-Youtube Promo video
+### Youtube Promo video
 - A YouTube video to showcase the brand's exploration of the globe and research.
 
 ![Youtube Promo video](docs/features/youtube-video-feature.png)
 
-Contact form
+### Contact form
 - A feature to allow the user to provide feedback to the brand.
 
 ![Contact form](docs/features/contact-form-feature.png)
 
-Map (store location)
+### Map (store location)
 - Google maps embeded into the contact us page, gives directions to the user.
 
 ![Map](docs/features/google-maps-feature.png)
 
-Details/Information
+### Details/Information
 - Gives the user the information they need to contact the brand owner.
 
 ![Details & Info](docs/features/brand-details-feature.png)
 
-Store Location Image
+### Store Location Image
 - An image that showcases the location of the store's building.
 
 ![Store Image](docs/features/brand-store-location-feature.png)
