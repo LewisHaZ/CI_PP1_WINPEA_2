@@ -29,7 +29,7 @@
     2. [CSS Validation](#CSS-validation)
     3. [Accessibility](#accessibility)
     4. [Performance](#performance)
-    5. [Device testing](#performing-tests-on-various-devices)
+    5. [Device testing](#testing-on-different-devices)
     6. [Browser compatibility](#browser-compatability)
     7. [Testing user stories](#testing-user-stories)
 7. [Bugs](#bugs)
@@ -82,16 +82,15 @@
 6. As a returning user, I want to know about the brand's vision and intentions.
 7. As a returning user, I want to know what time the store times.
 8. As a returning user, I want to know if there is other delivery options.
-9. As a returning user, I want to know if there is any discounts or sales.
-10. As a returning user, I want to find the brand's social media.
-11. As a returning user, I want to get visual directions for the store (live in the area but got delivery last time)
-12. As a returning user, I want to give feedback to the brand.
+9. As a returning user, I want to find the brand's social media.
+10. As a returning user, I want to get visual directions for the store (live in the area but got delivery last time)
+11. As a returning user, I want to give feedback to the brand.
 
 #### Site Owner
-13. As the site owner, I want users to find products they would like to buy.
-14. As the site owner, I want users to understand the identity of the brand.
-15. As the site owner, I want users to easily find the store.
-16. As the site owner, I want users to be able to contact us at any time and by any means.
+12. As the site owner, I want users to find products they would like to buy.
+13. As the site owner, I want users to understand the identity of the brand.
+14. As the site owner, I want users to easily find the store.
+15. As the site owner, I want users to be able to contact us at any time and by any means.
 
 ## Design
 
@@ -322,3 +321,116 @@ Google Lighthouse within the Google Chrome Developer Tools was used to test the 
 <details><summary>Contact us</summary>
 <img src="docs/validation/validation-for-lighthouse-contactus.jpg">
 </details>
+
+### Testing on different devices
+The website and all pages have been tested on many devices, including:
+- iPhone 10
+- Galaxy S22
+
+### Browsers
+The website has also been tested on various browsers, including:
+- Google Chrome
+- Mozilla Firefox
+- Microsoft Edge
+
+### Testing User stories
+1. As a first time user, I want to know where the store is located
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Map | Navigate to the Contact Us page, locate the Google Maps | Locating a map showing the location of the store | Works as expected |
+| Footer - contact information section | On any page scroll down to the footer | Find the address of the store | Works as expected |
+
+2. As a first time user, I want to know what products are available.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Catalogue | Navigate to the Catalogue page and product section | Find the products available with images/prices | Works as expected |
+| Carousel images | Load up Home pag | Immediately presented with brief range of products | Works as expected |
+
+3. As a first time user, I want to know more about the brand and its history.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| History | Navigate to the Home page | Scroll down to the lower section and find brief brand history | Works as expected |
+
+4. As a first time user, I want to who works for the business.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Meet team | Navigate to the Home page | Scroll down to the middle section and find introductions to each Winpea team member | Works as expected |
+| My details | Navigate to the Contact us page | Locate the name of the brand owner | Works as expected |
+
+5. As a first time user, I want to know if the brand delivers to my location.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Welcome | Navigate to the Home page | Scroll down to the top section and find the delivery & shipping guarantee | Works as expected |
+
+6. As a returning user, I want to know about the brand's vision and intentions.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Our Vision | Navigate to the Catalogue page | Scroll down to the bottom section below the products and find the our vision section | Works as expected |
+
+7. As a returning user, I want to know what time the store times.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer - opening times section | On any of the pages you can scroll to the footer | See opening times | Works as expected |
+
+8. As a returning user, I want to know if there is other delivery options.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact us - submit feedback or a question | Navigate to the Contact us page | Fill in the contact form and submit a question | Works as expected |
+
+9. As a returning user, I want to find the brand's social media.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer - social media links section | On any of the pages you can scroll to the footer | See social media | Works as expected |
+
+10. As a returning user, I want to get visual directions for the store.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact us - visual image | Navigate to the Contact us page | See visual directions in the bottom section | Works as expected |
+
+11. As a returning user, I want to give feedback to the brand.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact us - submit feedback or a qusetion | Navigate to the Contact us page | Fill in the contact form with the feedback | Works as expected |
+| My details | Navigate to the Contact us page | Locate the name of the brand owner and send an email or make a call | Works as expected |
+
+12. As the site owner, I want users to find products they would like to buy.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Catalogue | Navigate to the Catalogue page and product section | Find the products available with images/prices | Works as expected |
+| Carousel images | Load up Home pag | Immediately presented with brief range of products | Works as expected |
+
+13. As the site owner, I want users to understand the identity of the brand.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Meet team | Navigate to the Home page | Scroll down to the middle section and find introductions to each Winpea team member | Works as expected |
+| Home - mission statement | Navigate to the home page and mission statement section | Find the mission statement wrote by the CEO | Works as expected |
+| History | Navigate to the Home page | Scroll down to the lower section and find brief brand history | Works as expected |
+| Our Vision | Navigate to the Catalogue page | Scroll down to the bottom section below the products and find the our vision section | Works as expected |
+
+14. As the site owner, I want users to easily find the store.
+
+ | **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer - Our details | On any of the pages you can scroll to the footer | see address | Works as expected |
+| Map | Navigate to the Contact Us page, locate the Google Map | Locating a map showing the location of the store | Works as expected |
+
+15. As the site owner, I want users to be able to contact us at any time and by any means.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact us - My details | Navigate to the Contact us page | Locate the name of the brand owner and send an email or make a call | Works as expected |
+| Footer - Our details | On any of the pages you can scroll to the footer | email or call the number | Works as expected |
+| Contact us - submit feedback or a qusetion | Navigate to the Contact us page | Fill in the contact form with the feedback | Works as expected |
