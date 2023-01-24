@@ -265,3 +265,22 @@ The Winpea World website is made up of 4 pages & 17 features.
 - An image that showcases the location of the store's building.
 
 ![Store Image](docs/features/brand-store-location-feature.png)
+
+## Validation
+
+### HTML Validation
+The W3C Markup Validation Service was used to validate the HTML code for the webiste. All pages have passed the checks and have no errors.
+<details><summary>Home</summary>
+<img src="docs/validation/validation-index-html.jpg">
+</details>
+<details><summary>Catalogue</summary>
+<img src="docs/validation/validation-catalogue-html.jpg">
+</details>
+<details><summary>Gallery</summary>
+<img src="docs/validation/validation-gallery-html.jpg">
+</details>
+<details><summary>Contact Us</summary>
+<img src="docs/validation/validation-form-html.jpg">
+</details>
+
+### CSS Validation
