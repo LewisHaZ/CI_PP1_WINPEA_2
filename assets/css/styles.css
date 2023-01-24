@@ -526,7 +526,7 @@ hr{
 /* Taken from https://www.w3schools.com/css/css_link.asp */
  /* unvisited link */
  a:link {
-  color: red;
+  color: black;
 }
 
 /* visited link */
