@@ -35,7 +35,7 @@
 7. [Bugs](#bugs)
 8. [Deployment](#deployment)
 9. [Credits](#credits)
-10. [Acknowledgements](#acknowledgements)
+10. [Thanks to](#thanks-to)
 
 ## Project Goals
 
@@ -434,3 +434,63 @@ The website has also been tested on various browsers, including:
 | Contact us - My details | Navigate to the Contact us page | Locate the name of the brand owner and send an email or make a call | Works as expected |
 | Footer - Our details | On any of the pages you can scroll to the footer | email or call the number | Works as expected |
 | Contact us - submit feedback or a qusetion | Navigate to the Contact us page | Fill in the contact form with the feedback | Works as expected |
+
+## Bugs
+
+| **Bug** | **Fix** |
+| ----------- | ----------- |
+| Images not appearing on deployed sites | Link images correctly using full deployed website file paths |
+| YouTube video overflow into the footer | Reduced the height of the element |
+| Back to top button not appearing | Adjust the z-index value of the class to appear above all page elements |
+| YouTube video showing inverted colour | Remove the inverted class which was affecting all iframe tags |
+| Overflow to the right side of the viewport | Use overflow hidden on the x-axis |
+
+
+
+## Deployment
+The website was deployed using GitHub Pages by following these steps:
+1. In the GitHub repository navigate to the Settings tab
+2. On the left hand menu select Pages
+3. For the source select Branch: master
+4. After the webpage refreshes automaticaly you will see a ribbon on the top saying: "Your site is published at https://lewishaz.github.io/CI_PP1_WINPEA_2/"
+
+You can for fork the repository by following these steps:
+1. Go to the GitHub repository
+2. Click on Fork button in upper right hand corner
+
+You can clone the repository by following these steps:
+1. Go to the GitHub repository 
+2. Locate the Code button above the list of files and click it 
+3. Select if you prefere to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
+4. Open Git Bash
+5. Change the current working directory to the one where you want the cloned directory
+6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+7. Press Enter to create your local clone.
+
+## Credits
+Images not referenced below are owned by the developer.
+
+### Media
+- [Liberty London building](assets/images/liberty-london.jpg): Photo by <a href="https://www.libertylondon.com/uk/department/home/">Liberty London</a>
+- [Liberty Materials](assets/images/libert-london-material.jpg):  Photo by <a href="https://www.libertylondon.com/uk/department/home/">Liberty London</a>
+- [Diamond shine effect](assets/images/diamond-effect.jpg): Photo from John Hazelwood sent via Messenger
+- [Bag 1](assets/images/placeholder-bag-1.jpeg): Photo by <a href="https://www.pexels.com/photo/old-fashioned-handbag-with-metal-handle-6044266/">Skylar Kang on Pexels</a>
+- [Bag 2](assets/images/placeholder-bag-2.jpeg): Photo by <a href="https://www.pexels.com/photo/round-straw-bag-on-cement-floor-6045068/">Skylar Kang on Pexels</a>
+- [Bag 3](assets/images/placeholder-bag-3.jpeg): Photo by <a href="https://www.pexels.com/photo/trendy-leather-bag-on-black-background-5462562/">Dominika Roseclay on Pexels</a>
+- [Earrings 1](assets/images/placeholder-earrings-1.jpeg): Photo by <a href="https://www.pexels.com/photo/golden-hoop-earrings-neat-white-ribbon-9211671/">BKA photos on Pexels</a>
+- [Earrings 2](assets/images/placeholder-earrings-2.jpeg): Photo by <a href="https://www.pexels.com/photo/earring-with-diamonds-in-close-up-shot-7509251/">Gra.Wal on Pexels</a>
+- [Earrings 3](assets/images/placeholder-earrings-3.jpeg): Photo by <a href="https://www.pexels.com/photo/gold-colored-earrings-on-white-background-3881077/">SEASHELL IN LOVE on Pexels</a>
+- [Visual Directions](assets/images/visual-reference-store.jpg): Photo by <a href="https://property.jll.co.uk/rent-office/office-rent-leeds-ls1-5rd-17387?variant=1">JLL Properties</a>
+- [404 error image](assets/images/404-error-img.jpg): Taken from <a href="https://www.freepik.com/free-vector/404-error-with-portals-concept-illustration_20602756.htm#page=3&query=404&position=3&from_view=search&track=sph">Freepik.com</a>
+
+### Code
+- The HTML for the responsive [Navbar with toggler](https://getbootstrap.com/docs/5.0/components/navbar/#toggler) was taken from the Bootstrap v5.0 documentation code snippet and combined with their [Navbar with Pills](https://getbootstrap.com/docs/5.0/components/navs-tabs/#pills)
+- [Carousel](https://getbootstrap.com/docs/5.0/components/carousel/#with-indicators) on index page was taken from Bootrap v5.0 documentation code snippet.
+- [Gallery Slider](https://youtu.be/73DfC_HKLGc) on Gallery page was taken from Code Grind on YouTube.
+
+## Thanks to 
+I'd like to thank: 
+- Mo Shami, my mentor for the project for his guidance and additional support.
+- The Code Institute Slack community.
+- My parents for giving me the push I needed to start this course.
+- My Fiancee who owns the brand that inspired this website.
