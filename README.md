@@ -99,9 +99,10 @@
 - The design choice for the website was to be based around the colour & shine that a diamond provides, this is actually
 the navbar & footer background itself but it has been repeated in order to fill the width of the webpage.
 
-- I wanted to use this diamond shine effect across many elements on the website I included it within the imagery on the home
+- I wanted to use this diamond shine effect across many elements on the website, so I included it within the imagery on the home
 page to represent a ring shape around the team members that I've put there.
 <br>
+
 ![Diamond design](docs/features/diamond-effect.jpg)
 
 ### Colour
@@ -116,10 +117,10 @@ Libre Baskerville used as the main body font and Serif used as a fallback.
 ### Structure
 Each webpage on the site is created so that the user can be easily familiarised with what content they are looking at. There is a navigation bar, with the brand logo aligned to the left side and the page links on the right. The structure allows user to easily pick out what content they are searching for, the pages are as follows:
 
-- A landing page with sections consisting of carousel images, welcome section & meet the staff section
-- A catalogue page with a list of products the company makes
-- A gallery page with a panel of various images encompassing many aspects of the brand
-- A contact us page with a contact form, an image to visualise the store location, a map and contact details
+- A landing page with sections consisting of carousel images, welcome section & meet the staff section.
+- A catalogue page with a list of products the company makes.
+- A gallery page with a panel of various images encompassing many aspects of the brand.
+- A contact us page with a contact form, an image to visualise the store location, a map and contact details.
 
 ### Wireframes
 
@@ -155,4 +156,38 @@ Each webpage on the site is created so that the user can be easily familiarised 
 - Font Awesome
 - Favicon
 
+## Features
+The Winpea World website is made up of 4 pages & x features.
 
+Brand Logo & Navigation Bar
+- Consistent across all pages.
+- The brand logo can be clicked to return to the home page.
+- The navigation bar is responsive and uses a hamburger toggler for mobile sized screens, it includes the links for each page.
+- The navigation bar allows fluid access to each page.
+- The current page is represented with a rounded black square background.
+
+![Brand logo & navigation bar](docs/features/brand-logo-nav-bar-feature.png)
+
+Carousel
+- Showcases some of the brand's work in a 4 photo slide show.
+- The user can choose which slide to view by using the back and forward arrows as well as the slide indicators at the bottom center.
+
+![Carousel](docs/features/carousel-feature.png)
+
+Welcome
+- This section gives the user a brief description of many aspects of the company.
+- A quote from the brand owner to give the brand identity.
+- Quality & Delivery guarantees in order to build trust.
+- All of these brought together with a brand photo and large heading welcoming users at the top.
+
+![Welcome](docs/features/welcome-feature.png)
+
+Meet the team
+- The next section on the homepage introduces users to the staff working at Winpea World.
+- Each member's profile is broken up with a line stretching the width of the window.
+- The profile's also alternate from left to right, twice respectively & in that order.
+
+![Meet the team 1](docs/features/meet-the-team-1-feature.png)
+![Meet the team 2](docs/features/meet-the-team-2-feature.png)
+![Meet the team 3](docs/features/meet-the-team-3-feature.png)
+![Meet the team 4](docs/features/meet-the-team-4-feature.png)
