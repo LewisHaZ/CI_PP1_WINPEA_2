@@ -292,3 +292,33 @@ The W3C Jigsaw CSS Validation Service was used to validate the CSS code for the 
 <details><summary>style.css</summary>
 <img src="docs/validation/validation-for-css2.jpg">
 </details>
+
+### Accessibility
+The WAVE WebAIM web accessibility evaluation tool was used to make sure the website ticked all accessiblity boxes. All pages passed with zero errors but there was an alert for the YouTube video included on the gallery page due to no captions.
+<details><summary>Home</summary>
+<img src="docs/validation/validation-for-wave-home.jpg">
+</details>
+<details><summary>Catalogue</summary>
+<img src="docs/validation/validation-for-wave-catalogue.jpg">
+</details>
+<details><summary>Gallery</summary>
+<img src="docs/validation/validation-for-wave-gallery.jpg">
+</details>
+<details><summary>Contact us</summary>
+<img src="docs/validation/validation-for-wave-contactus.jpg">
+</details>
+
+### Performance
+Google Lighthouse within the Google Chrome Developer Tools was used to test the overall performance of the website.
+<details><summary>Home</summary>
+<img src="docs/validation/validation-for-lighthouse-home.jpg">
+</details>
+<details><summary>Catalogue</summary>
+<img src="docs/validation/validation-for-lighthouse-catalogue.jpg">
+</details>
+<details><summary>Gallery</summary>
+<img src="docs/validation/validation-for-lighthouse-gallery.jpg">
+</details>
+<details><summary>Contact us</summary>
+<img src="docs/validation/validation-for-lighthouse-contactus.jpg">
+</details>
