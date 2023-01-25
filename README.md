@@ -12,17 +12,17 @@
     2. [Site Owner Goals](#site-owner-goals)
 2. [User Experience](#user-experience)
     1. [Target Audience](#target-audience)
-    2. [User Requirements & Expectations](#user-requirements-&-expectations)
+    2. [User Requirements and Expectations](#user-requirements-and-expectations)
     3. [User Stories](#user-stories)
 3. [Design](#design)
     1. [Design Choices](#design-choices)
-    2. [Colour](#colours)
+    2. [Colour](#colour)
     3. [Fonts](#fonts)
     4. [Structure](#structure)
     5. [Wireframes](#wireframes)
 4. [Technologies Used](#technologies-used)
     1. [Languages](#languages)
-    2. [Frameworks & Tools](#frameworks-&-tools)
+    2. [Frameworks & Tools](#frameworks-and-tools)
 5. [Features](#features)
 6. [Testing](#validation)
     1. [HTML Validation](#HTML-validation)
@@ -30,7 +30,7 @@
     3. [Accessibility](#accessibility)
     4. [Performance](#performance)
     5. [Device testing](#testing-on-different-devices)
-    6. [Browser compatibility](#browser-compatability)
+    6. [Browsers](#browsers)
     7. [Testing user stories](#testing-user-stories)
 7. [Bugs](#bugs)
 8. [Deployment](#deployment)
@@ -61,7 +61,7 @@
 - Models looking to increase their popularity with accessories from a known brand.
 - Other likeminded companies looking to collaborate on fashion projects.
 
-### User Requirements & Expectations
+### User Requirements and Expectations
 - An inituitive website that allows the user to seamlessly navigate the site.
 - Can easily find the information they're looking for.
 - All the features/elements work correctly (links, forms, embeded sections etc).
@@ -144,7 +144,7 @@ Each webpage on the site is created so that the user can be easily familiarised 
 - CSS
 - Javascript
 
-### Frameworks & Tools
+### Frameworks and Tools
 - Bootstrap v5.0.2
 - Git
 - GitHub
