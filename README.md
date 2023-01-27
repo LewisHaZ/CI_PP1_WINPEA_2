@@ -192,6 +192,7 @@ The Winpea World website is made up of 4 pages & 17 features.
 - A quote from the brand owner to give the brand identity.
 - Quality & Delivery guarantees in order to build trust.
 - All of these brought together with a brand photo and large heading welcoming users at the top.
+- User stories covered: 6
 
 ![Welcome](docs/features/welcome-feature.png)
 
@@ -199,6 +200,7 @@ The Winpea World website is made up of 4 pages & 17 features.
 - The next section on the homepage introduces users to the staff working at Winpea World.
 - Each member's profile is broken up with a line stretching the width of the window.
 - The profile's also alternate from left to right, twice respectively & in that order.
+- User stories covered: 4, 5
 
 ![Meet the team 1](docs/features/meet-the-team-1-feature.png)
 ![Meet the team 2](docs/features/meet-the-team-2-feature.png)
@@ -208,16 +210,19 @@ The Winpea World website is made up of 4 pages & 17 features.
 ### History
 - Gives a brief overview of the brand's inspirations, when the brand was founded and who the biggest influence on the direction of the brand is plus their store location.
 - An image pushed to the right showing the Liberty London department store included too.
+- User stories covered: 3, 6
 
 ![History](docs/features/brand-history-feature.png)
 
 ### Brand Mission statement
 - A statement of intent from the CEO of the brand, includes an itallic font style to highlight importance whilst also making the writing pop with a black background.
+- User stories covered: 6, 13
 
 ![Brand Mission statement](docs/features/brand-statement-feature.png)
 
 ### Liberty influence
 - A quote from the original owner of the Liberty brand, the quote is to reinforce the direction of the brand.
+- User stories covered: 3, 13
 
 ![Liberty influence](docs/features/liberty-influence-quote-feature.png)
 
@@ -225,6 +230,7 @@ The Winpea World website is made up of 4 pages & 17 features.
 - Included on all pages for consistency and ease of access.
 - Diamond design also used for the footer background, same as the navigation bar & other imagery.
 - Three sections included: Information for location/contact number, Opening times of the store & social media links.
+- User stories covered: 1, 7, 9, 15
 
 ![Footer](docs/features/footer-feature.png)
 
@@ -239,48 +245,57 @@ The Winpea World website is made up of 4 pages & 17 features.
 - A selection of Winpea's best products collated onto one page.
 - Each product includes a name, price tag and an image.
 - A cart icon is included on each in the top left of the image.
+- User stories covered: 2, 12
 
 ![Catalogue](docs/features/catalogue-feature.png)
 
 ### Our Vision
 - A short paragraph on the bottom of the catalogue page which thanks customers for visiting.
 - An affirmation of Winpea's quality of operations, reaching across Europe and the globe.
+- User stories covered: 6, 13
 
 ![Vision](docs/features/vision-feature.png)
 
 ### Gallery
 - A selection of photos for the brand arrange in a row.
 - Each photo is split but you're able to focus on each one.
+- User stories covered: 13
 
 ![Gallery](docs/features/gallery-feature.png)
 
 ### Youtube Promo video
 - A YouTube video to showcase the brand's exploration of the globe and research.
+- User stories covered: 13
 
 ![Youtube Promo video](docs/features/youtube-video-feature.png)
 
 ### Contact form
 - A feature to allow the user to provide feedback to the brand.
+- User stories covered: 11, 15
 
 ![Contact form](docs/features/contact-form-feature.png)
 
 ### Map (store location)
 - Google maps embeded into the contact us page, gives directions to the user.
+- User stories covered: 1, 14
 
 ![Map](docs/features/google-maps-feature.png)
 
 ### Details/Information
 - Gives the user the information they need to contact the brand owner.
+- User stories covered: 1, 4, 5, 11, 15
 
 ![Details & Info](docs/features/brand-details-feature.png)
 
 ### Store Location Image
 - An image that showcases the location of the store's building.
+- User stories covered: 1, 10, 14
 
 ![Store Image](docs/features/brand-store-location-feature.png)
 
 ### 404 Page
 - A page that the user is brought to if they accidentally type an unknown address into the address bar.
+- User stories covered: 16
 
 ![404 Page](docs/features/404-error-page-feature.png)
 
@@ -360,18 +375,35 @@ The website has also been tested on various browsers, including:
 | Map | Navigate to the Contact Us page, locate the Google Maps | Locating a map showing the location of the store | Works as expected |
 | Footer - contact information section | On any page scroll down to the footer | Find the address of the store | Works as expected |
 
+<details><summary>Evidence of</summary>
+<img src="docs/user-story-testing/user-story-testing-1-1.png">
+<img src="docs/user-story-testing/user-story-testing-1-2.png">
+<img src="docs/user-story-testing/user-story-testing-1-3.png">
+</details>
+
+
 2. As a first time user, I want to know what products are available.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Catalogue | Navigate to the Catalogue page and product section | Find the products available with images/prices | Works as expected |
-| Carousel images | Load up Home pag | Immediately presented with brief range of products | Works as expected |
+| Carousel images | Load up Home page | Immediately presented with brief range of products | Works as expected |
+
+<details><summary>Evidence of</summary>
+<img src="docs/user-story-testing/user-story-testing-2-1.png">
+<img src="docs/user-story-testing/user-story-testing-2-2.png">
+</details>
 
 3. As a first time user, I want to know more about the brand and its history.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | History | Navigate to the Home page | Scroll down to the lower section and find brief brand history | Works as expected |
+
+<details><summary>Evidence of</summary>
+<img src="docs/user-story-testing/user-story-testing-1-2.png">
+<img src="docs/user-story-testing/user-story-testing-3.png">
+</details>
 
 4. As a first time user, I want to who works for the business.
 
@@ -380,11 +412,23 @@ The website has also been tested on various browsers, including:
 | Meet team | Navigate to the Home page | Scroll down to the middle section and find introductions to each Winpea team member | Works as expected |
 | My details | Navigate to the Contact us page | Locate the name of the brand owner | Works as expected |
 
+<details><summary>Evidence of</summary>
+<img src="docs/user-story-testing/user-story-testing-1-2.png">
+<img src="docs/user-story-testing/user-story-testing-4-1.png">
+<img src="docs/user-story-testing/user-story-testing-4-2.png">
+<img src="docs/user-story-testing/user-story-testing-4-3.png">
+</details>
+
 5. As a first time user, I want to know if the brand delivers to my location.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Welcome | Navigate to the Home page | Scroll down to the top section and find the delivery & shipping guarantee | Works as expected |
+
+<details><summary>Evidence of</summary>
+<img src="docs/user-story-testing/user-story-testing-1-2.png">
+<img src="docs/user-story-testing/user-story-testing-5.png">
+</details>
 
 6. As a returning user, I want to know about the brand's vision and intentions.
 
@@ -392,11 +436,21 @@ The website has also been tested on various browsers, including:
 |-------------|------------|---------------------|-------------------|
 | Our Vision | Navigate to the Catalogue page | Scroll down to the bottom section below the products and find the our vision section | Works as expected |
 
+<details><summary>Evidence of</summary>
+<img src="docs/user-story-testing/user-story-testing-6-1.png">
+<img src="docs/user-story-testing/user-story-testing-6-2.png">
+</details>
+
 7. As a returning user, I want to know what time the store times.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Footer - opening times section | On any of the pages you can scroll to the footer | See opening times | Works as expected |
+
+<details><summary>Evidence of</summary>
+<img src="docs/user-story-testing/user-story-testing-1-2.png">
+<img src="docs/user-story-testing/user-story-testing-7.png">
+</details>
 
 8. As a returning user, I want to know if there is other delivery options.
 
@@ -404,11 +458,20 @@ The website has also been tested on various browsers, including:
 |-------------|------------|---------------------|-------------------|
 | Contact us - submit feedback or a question | Navigate to the Contact us page | Fill in the contact form and submit a question | Works as expected |
 
+<details><summary>Evidence of</summary>
+<img src="docs/user-story-testing/user-story-testing-8.png">
+</details>
+
 9. As a returning user, I want to find the brand's social media.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Footer - social media links section | On any of the pages you can scroll to the footer | See social media | Works as expected |
+
+<details><summary>Evidence of</summary>
+<img src="docs/user-story-testing/user-story-testing-1-2.png">
+<img src="docs/user-story-testing/user-story-testing-9.png">
+</details>
 
 10. As a returning user, I want to get visual directions for the store.
 
