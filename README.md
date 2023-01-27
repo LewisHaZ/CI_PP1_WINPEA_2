@@ -303,18 +303,7 @@ The Winpea World website is made up of 4 pages & 17 features.
 
 ### HTML Validation
 The W3C Markup Validation Service was used to validate the HTML code for the webiste. All pages have passed the checks and have no errors.
-<details><summary>Home</summary>
-<img src="docs/validation/validation-index-html.jpg">
-</details>
-<details><summary>Catalogue</summary>
-<img src="docs/validation/validation-catalogue-html.jpg">
-</details>
-<details><summary>Gallery</summary>
-<img src="docs/validation/validation-gallery-html.jpg">
-</details>
-<details><summary>Contact Us</summary>
-<img src="docs/validation/validation-form-html.jpg">
-</details>
+gallery.html [results]https://validator.w3.org/nu/?doc=https%3A%2F%2Flewishaz.github.io%2FCI_PP1_WINPEA_2%2Fgallery.html - No Errors Found
 
 ### CSS Validation
 The W3C Jigsaw CSS Validation Service was used to validate the CSS code for the website.
