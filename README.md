@@ -5,6 +5,16 @@
 
 [Live Webpage](https://lewishaz.github.io/CI_PP1_WINPEA_2/)
 
+## Introduction
+Hello and welcome to the Read me documentation for my PP1 Project, named: Winpea World. This website is the foundation for an E-Commerce website which I intend to 
+build upon in the future projects of mine. The theme of the site itself is a Jewellery & Fashion brand; one that hopes to bring audiences from all across the globe, 
+with British and Japanese cultures being the main driving point for the design of each product. The design of the site is colorful yet not too overpowering, so as to give a vibrant feel with a calmness to the tones of each page as the user progresses through the site.
+
+### User manual 
+The website itself has been designed in such a way that it works in different ways depending on which device(s) the user is on. For example: on Windows or iMac devices, the Gallery page will have a hover & zoom effect for the images that user chooses to look at. Whereas on mobile and tablets devices, the images need to be clicked on in order for the user to be able to focus on a specific image within the set. Design choices such as this one have been done in order to keep the viewing experience fluid but also so as to not overpower and disorientate the user.
+
+
+
 ## Table of Contents
 
 1. [Project Goals](#project-goals)
@@ -91,6 +101,7 @@
 13. As the site owner, I want users to understand the identity of the brand.
 14. As the site owner, I want users to easily find the store.
 15. As the site owner, I want users to be able to contact us at any time and by any means.
+16. As the site owner, I don't want user to have to use the back button in order to go back a page if they hit a 404 error accidentally.
 
 ## Design
 

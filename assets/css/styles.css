@@ -479,12 +479,14 @@ hr{
   max-width: 500px;
 }
 
+
 /* return to home button styling */
 .home-btn{
   background-color: var(--washed-white);
   color: #000;
   text-align: center;
   text-decoration: solid;
+  font-size: xx-large;
   display: block;
   border-radius: 0.25rem;
   text-shadow:-1px -1px 0 #ffff,
