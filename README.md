@@ -314,19 +314,13 @@ The W3C Jigsaw CSS Validation Service was used to validate the CSS code for the 
 site [results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flewishaz.github.io%2FCI_PP1_WINPEA_2%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) - No Errors Found
 
 ### Accessibility
-The WAVE WebAIM web accessibility evaluation tool was used to make sure the website ticked all accessiblity boxes. All pages passed with zero errors but there was an alert for the YouTube video included on the gallery page due to no captions.
-<details><summary>Home</summary>
-<img src="docs/validation/validation-for-wave-home.jpg">
-</details>
-<details><summary>Catalogue</summary>
-<img src="docs/validation/validation-for-wave-catalogue.jpg">
-</details>
-<details><summary>Gallery</summary>
-<img src="docs/validation/validation-for-wave-gallery.jpg">
-</details>
-<details><summary>Contact us</summary>
-<img src="docs/validation/validation-for-wave-contactus.jpg">
-</details>
+The WAVE WebAIM web accessibility evaluation tool was used to make sure the website ticked all accessiblity boxes. All pages passed with zero errors but there was an alert for the YouTube video included on the gallery page due to no captions. Also an alert on the 404 error page which is to do with there being no level 1 heading since the only text element is the back to home button which is wrapped in an anchor tag.
+
+- index.html [results](https://wave.webaim.org/report#/https://lewishaz.github.io/CI_PP1_WINPEA_2/index.html)
+- catalogue.html [results](https://wave.webaim.org/report#/https://lewishaz.github.io/CI_PP1_WINPEA_2/catalogue.html)
+- gallery.html [results](https://wave.webaim.org/report#/https://lewishaz.github.io/CI_PP1_WINPEA_2/gallery.html)
+- form.html [results](https://wave.webaim.org/report#/https://lewishaz.github.io/CI_PP1_WINPEA_2/form.html)
+- 404.html [results](https://wave.webaim.org/report#/https://lewishaz.github.io/CI_PP1_WINPEA_2/404.html)
 
 ### Performance
 Google Lighthouse within the Google Chrome Developer Tools was used to test the overall performance of the website.
