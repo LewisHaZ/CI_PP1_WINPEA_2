@@ -311,12 +311,7 @@ The W3C Markup Validation Service was used to validate the HTML code for the web
 ### CSS Validation
 The W3C Jigsaw CSS Validation Service was used to validate the CSS code for the website.
 
-<details><summary>Entire page</summary>
-<img src="docs/validation/validation-for-css.jpg">
-</details>
-<details><summary>style.css</summary>
-<img src="docs/validation/validation-for-css2.jpg">
-</details>
+site [results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flewishaz.github.io%2FCI_PP1_WINPEA_2%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) - No Errors Found
 
 ### Accessibility
 The WAVE WebAIM web accessibility evaluation tool was used to make sure the website ticked all accessiblity boxes. All pages passed with zero errors but there was an alert for the YouTube video included on the gallery page due to no captions.
