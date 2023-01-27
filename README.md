@@ -479,19 +479,36 @@ The website has also been tested on various browsers, including:
 |-------------|------------|---------------------|-------------------|
 | Contact us - visual image | Navigate to the Contact us page | See visual directions in the bottom section | Works as expected |
 
+<details><summary>Evidence of</summary>
+<img src="docs/user-story-testing/user-story-testing-10-1.png">
+<img src="docs/user-story-testing/user-story-testing-10-2.png">
+</details>
+
 11. As a returning user, I want to give feedback to the brand.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Contact us - submit feedback or a qusetion | Navigate to the Contact us page | Fill in the contact form with the feedback | Works as expected |
+| Contact us - submit feedback or a question | Navigate to the Contact us page | Fill in the contact form with the feedback | Works as expected |
 | My details | Navigate to the Contact us page | Locate the name of the brand owner and send an email or make a call | Works as expected |
+
+<details><summary>Evidence of</summary>
+<img src="docs/user-story-testing/user-story-testing-11-1.png">
+<img src="docs/user-story-testing/user-story-testing-11-2.png">
+<img src="docs/user-story-testing/user-story-testing-11-3.png">
+</details>
 
 12. As the site owner, I want users to find products they would like to buy.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Catalogue | Navigate to the Catalogue page and product section | Find the products available with images/prices | Works as expected |
-| Carousel images | Load up Home pag | Immediately presented with brief range of products | Works as expected |
+| Carousel images | Load up Home page | Immediately presented with brief range of products | Works as expected |
+
+<details><summary>Evidence of</summary>
+<img src="docs/user-story-testing/user-story-testing-12-1.png">
+<img src="docs/user-story-testing/user-story-testing-12-2.png">
+<img src="docs/user-story-testing/user-story-testing-12-3.png">
+</details>
 
 13. As the site owner, I want users to understand the identity of the brand.
 
@@ -502,12 +519,27 @@ The website has also been tested on various browsers, including:
 | History | Navigate to the Home page | Scroll down to the lower section and find brief brand history | Works as expected |
 | Our Vision | Navigate to the Catalogue page | Scroll down to the bottom section below the products and find the our vision section | Works as expected |
 
+<details><summary>Evidence of</summary>
+<img src="docs/user-story-testing/user-story-testing-13-1.png">
+<img src="docs/user-story-testing/user-story-testing-13-2.png">
+<img src="docs/user-story-testing/user-story-testing-13-3.png">
+<img src="docs/user-story-testing/user-story-testing-13-4.png">
+<img src="docs/user-story-testing/user-story-testing-13-5.png">
+<img src="docs/user-story-testing/user-story-testing-13-6.png">
+</details>
+
 14. As the site owner, I want users to easily find the store.
 
  | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Footer - Our details | On any of the pages you can scroll to the footer | see address | Works as expected |
 | Map | Navigate to the Contact Us page, locate the Google Map | Locating a map showing the location of the store | Works as expected |
+
+<details><summary>Evidence of</summary>
+<img src="docs/user-story-testing/user-story-testing-14-1.png">
+<img src="docs/user-story-testing/user-story-testing-14-2.png">
+<img src="docs/user-story-testing/user-story-testing-14-3.png">
+</details>
 
 15. As the site owner, I want users to be able to contact us at any time and by any means.
 
@@ -517,11 +549,24 @@ The website has also been tested on various browsers, including:
 | Footer - Our details | On any of the pages you can scroll to the footer | email or call the number | Works as expected |
 | Contact us - submit feedback or a qusetion | Navigate to the Contact us page | Fill in the contact form with the feedback | Works as expected |
 
+<details><summary>Evidence of</summary>
+<img src="docs/user-story-testing/user-story-testing-15-1.png">
+<img src="docs/user-story-testing/user-story-testing-15-2.png">
+<img src="docs/user-story-testing/user-story-testing-15-3.png">
+<img src="docs/user-story-testing/user-story-testing-15-4.png">
+<img src="docs/user-story-testing/user-story-testing-15-5.png">
+</details>
+
 16. As the site owner, I don't want user to have to use the back button in order to go back a page if they hit a 404 error accidentally.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|404 page - accessibility| Get 404 error through typing incorrect address | Locate the back to home button and return to website | Works as expected |
+| 404 page - accessibility| Get 404 error through typing incorrect address | Locate the back to home button and return to website | Works as expected |
+
+<details><summary>Evidence of</summary>
+<img src="docs/user-story-testing/user-story-testing-16-1.png">
+<img src="docs/user-story-testing/user-story-testing-16-2.png">
+</details>
 
 ## Bugs
 
