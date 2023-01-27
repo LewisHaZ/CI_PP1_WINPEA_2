@@ -146,6 +146,9 @@ Each webpage on the site is created so that the user can be easily familiarised 
 <details><summary>Contact Us</summary>
 <img src="docs/wireframes/Contactus.png">
 </details>
+<details><summary>404</summary>
+<img src="docs/wireframes/404.png">
+</details>
 
 
 ## Technologies Used
@@ -275,6 +278,11 @@ The Winpea World website is made up of 4 pages & 17 features.
 - An image that showcases the location of the store's building.
 
 ![Store Image](docs/features/brand-store-location-feature.png)
+
+### 404 Page
+- A page that the user is brought to if they accidentally type an unknown address into the address bar.
+
+![404 Page](docs/features/404-error-page-feature.png)
 
 ## Validation
 
@@ -445,6 +453,12 @@ The website has also been tested on various browsers, including:
 | Contact us - My details | Navigate to the Contact us page | Locate the name of the brand owner and send an email or make a call | Works as expected |
 | Footer - Our details | On any of the pages you can scroll to the footer | email or call the number | Works as expected |
 | Contact us - submit feedback or a qusetion | Navigate to the Contact us page | Fill in the contact form with the feedback | Works as expected |
+
+16. As the site owner, I don't want user to have to use the back button in order to go back a page if they hit a 404 error accidentally.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|404 page - accessibility| Get 404 error through typing incorrect address | Locate the back to home button and return to website | Works as expected |
 
 ## Bugs
 
