@@ -602,6 +602,7 @@ Images not referenced below are owned by the developer.
 - The HTML for the responsive [Navbar with toggler](https://getbootstrap.com/docs/5.0/components/navbar/#toggler) was taken from the Bootstrap v5.0 documentation code snippet and combined with their [Navbar with Pills](https://getbootstrap.com/docs/5.0/components/navs-tabs/#pills)
 - [Carousel](https://getbootstrap.com/docs/5.0/components/carousel/#with-indicators) on index page was taken from Bootrap v5.0 documentation code snippet.
 - [Gallery Slider](https://youtu.be/73DfC_HKLGc) on Gallery page was taken from Code Grind on YouTube.
+- [Readme template](https://github.com/4n4ru/CI_MS1_BodelschwingherHof) big thanks to Ana for the readme template that helped format all my content for the documentation.
 
 ## Thanks to 
 I'd like to thank: 
