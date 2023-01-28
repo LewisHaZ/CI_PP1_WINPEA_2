@@ -1,7 +1,7 @@
 # Winpea World
 (Developer: Lewis Hazelwood)
 
-![Mockup image](docs/am-i-responsive-test.png)
+![Mockup image](docs/am-i-responsive-test-2.jpg)
 
 [Live Webpage](https://lewishaz.github.io/CI_PP1_WINPEA_2/)
 
