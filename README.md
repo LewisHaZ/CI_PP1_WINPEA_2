@@ -13,8 +13,6 @@ with British and Japanese cultures being the main driving point for the design o
 ### User manual 
 The website itself has been designed in such a way that it works in different ways depending on which device(s) the user is on. For example: on Windows or iMac devices, the Gallery page will have a hover & zoom effect for the images that user chooses to look at. Whereas on mobile and tablets devices, the images need to be clicked on in order for the user to be able to focus on a specific image within the set. Design choices such as this one have been done in order to keep the viewing experience fluid but also so as to not overpower and disorientate the user.
 
-
-
 ## Table of Contents
 
 1. [Project Goals](#project-goals)
